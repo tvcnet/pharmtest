@@ -1,0 +1,21 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+# BEGIN Sandbox
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI} !^/sandbox/.* [NC]
+RewriteCond %{HTTP_COOKIE} sandbox=([^;]+) [NC]
+RewriteRule ^(.*)$ /sandbox/%1/$1 [NC,L,QSA,S=10]
+</IfModule>
+# END Sandbox

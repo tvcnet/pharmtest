@@ -1,0 +1,72 @@
+/* Custom Styles */
+body { font-family:'Arial'; }
+body { font-size:12px; }
+h1, h2, h3, h4, h5, h6, #slogan, .single-post-categories { font-family:'Arial'; }
+#top-elements { height:90px; }
+#logo h1 a, #logo .site-name a { background:transparent url( http://pharm.tvsecure.net/wp-content/uploads/2013/09/pharmacorp_logo11.png ) no-repeat 0 100%; width:175px; height:108px; }       
+#slogan { top:100px; left:0px; }
+#slogan { font-size:12px; }
+.js_on .cufon-on #slogan { font-size:14px; }
+#navigation-menu { font-family:'Arial'; }
+#navigation-menu { font-size:14px; }
+h1 {font-size:1.883em !important; }
+h2 {font-size:1.667em !important; }
+h3 {font-size:1.5em !important; }
+h4 {font-size:1.333em !important; }
+h5 {font-size:1.25em !important; }
+h6 {font-size:1.083em !important; }
+.js_on .cufon-on h1 {font-size:2.3em !important; }
+.js_on .cufon-on h2 {font-size:2.18em !important; }
+.js_on .cufon-on h3 {font-size:1.883em !important; }
+.js_on .cufon-on h4 {font-size:1.667em !important; }
+.js_on .cufon-on h5 {font-size:1.5em !important; }
+.js_on .cufon-on h6 {font-size:1.333em !important; }
+
+    
+#page-content-title #page-title h1,
+#page-content-title #page-title h2,
+#page-content-title #page-title h3,
+#page-content-title #page-title .single-post-categories {margin:0;padding:0;height:0;text-indent:-9000px;}
+
+.js_on .cufon-on #page-content-title #page-title h1,
+.js_on .cufon-on #page-content-title #page-title h2,
+.js_on .cufon-on #page-content-title #page-title h3,
+.js_on .cufon-on #page-content-title #page-title .single-post-categories {margin:0;padding:0;height:0;text-indent:-9000px;}
+
+.post-top h1, .post-top h2, .post-top h3 {font-size:1.5em !important; }
+.js_on .cufon-on .post-top h1, .js_on .cufon-on .post-top h2, .post-top h3 {font-size:1.883em !important; }
+
+#sidebarSubnav h3 {font-size:1.25em !important; }
+.js_on .cufon-on #sidebarSubnav h3 {font-size:1.5em !important; }
+
+.portfolio-items-wrapper h2 {font-size:1.333em !important; }
+.js_on .cufon-on .portfolio-items-wrapper h2 {font-size:1.667em !important; }
+h2.portfolio-single-column {font-size:1.667em !important; }
+.js_on .cufon-on h2.portfolio-single-column {font-size:2.18em !important; }
+
+h3.bottom-col-title {font-size:1.35em !important; }
+.js_on .cufon-on h3.bottom-col-title {font-size:1.6947em !important; }
+
+#gs-header #header-content { width:940px; }
+#c2-slider .slide-desc h2, #c2-slider .slide-desc { color:#333333; }
+#c2-slider .slide-desc h2 { font-size:1.8em !important; font-family:'Arial'; line-height:1.7; }
+#c2-slider .slide-desc p, #c2-slider .slide-desc ul { font-size:1.2em; line-height:1.7; }
+#c3-slider .sliding-text { color:#FFFFFF; font-size:1.2em; line-height:1.7; }
+
+
+    
+
+    @media screen and ( max-width: 719px ) {
+        #logo h1 a, #logo .site-name a { background:transparent url( http://pharm.tvsecure.net/wp-content/uploads/2013/09/pharmacorp_logo11.png ) no-repeat 0 100%; height:150px; }
+        #wrapper-1, #top-wrapper, #gs-header, #piecemaker-header, #c1-header, #c2-header, #c3-header, #rev-slider-header, #page-content-title, #home-page-content, #page-content, .no_title_section #page-content, #before-content, #bottom-bg, #footer-bg { background-image:none; }
+    }
+    @media screen and ( max-width: 959px ) {
+        #c2-slider .slide-desc p, #c2-slider .slide-desc ul  { font-size:1.1em; line-height:1.6; }
+        ul#c2-slider li ul li { font-size:0.8em; }
+    }
+    @media screen and ( max-width: 480px ) {
+        #c2-slider .slide-desc h2 { font-size:1.4em !important; line-height:1.5; }
+    }
+    @media screen and ( min-width: 720px ) and ( max-width: 959px ) {
+        #c2-slider .slide-desc h2 { font-size:1.7em !important; line-height:1.6; }
+    }

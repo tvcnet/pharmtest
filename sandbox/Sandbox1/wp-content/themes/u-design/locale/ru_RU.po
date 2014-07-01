@@ -1,0 +1,4502 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: U-Design WP Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-22 13:52-0500\n"
+"PO-Revision-Date: 2013-04-22 13:52-0500\n"
+"Last-Translator: Andon <andon.design@gmail.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:16
+msgid ""
+"Oops..., I cannot find that page you are looking for, sorry... (Error 404)"
+msgstr ""
+"Упс..., Извините, невозможно найти страницу, которую вы ищите... (Error 404)"
+
+#: ../404.php:19
+msgid "Let me help you find it:"
+msgstr "Разрешите помочь Вам найти это: "
+
+#: ../404.php:22
+msgid "<strong>Search</strong> for it:"
+msgstr "<strong>Поиск</strong>: "
+
+#: ../404.php:26
+msgid ""
+"<strong>If you typed in a URL...</strong> check the spelling and try "
+"reloading the page."
+msgstr ""
+"<strong>Если вы напечатали в URL...</strong> проверьте правописание и "
+"обновите страницу"
+
+#: ../404.php:29
+#, php-format
+msgid "<strong>Start over again</strong> with the %1$sHomepage%2$s."
+msgstr "<strong>Начните заново</strong> с %1$sГлавной страницы%2$s"
+
+#: ../archive.php:30 ../page-Blog.php:73 ../single-Portfolio.php:27
+#: ../single.php:38
+#, php-format
+msgid "By %1$s on %2$s "
+msgstr "%1$s в %2$s"
+
+#: ../archive.php:32 ../page-Blog.php:75 ../single-Portfolio.php:29
+#: ../single.php:40
+#, php-format
+msgid "On %1$s "
+msgstr "%1$s"
+
+#: ../archive.php:34 ../page-Blog.php:77 ../single-Portfolio.php:31
+#: ../single.php:42
+msgid "Leave a comment"
+msgstr "Оставить комментарий"
+
+#: ../archive.php:34 ../comments.php:21 ../page-Blog.php:77
+#: ../single-Portfolio.php:31 ../single.php:42 ../sitemap.php:56
+msgid "1 Comment"
+msgstr "1 комментарий"
+
+#: ../archive.php:34 ../comments.php:21 ../page-Blog.php:77
+#: ../single-Portfolio.php:31 ../single.php:42 ../sitemap.php:56
+msgid "% Comments"
+msgstr "Комментариев % "
+
+#: ../archive.php:34 ../page-Blog.php:77 ../single-Portfolio.php:31
+#: ../single.php:42
+msgid "Edit"
+msgstr "Изменить"
+
+#: ../archive.php:35 ../page-Blog.php:78 ../single-Portfolio.php:32
+#: ../single.php:43
+#, fuzzy
+msgid "Tags: "
+msgstr "Страницы"
+
+#: ../archive.php:71
+#, php-format
+msgid ""
+"<h2 class='center'>Sorry, but there aren't any posts in the %s category yet."
+"</h2>"
+msgstr "<h2 class='center'>Извините, в рубрике %s еще нет записей.</h2>"
+
+#: ../archive.php:73
+msgid "<h2>Sorry, but there aren't any posts with this date.</h2>"
+msgstr "<h2>Извините, но на эту дату нет записей.</h2>"
+
+#: ../archive.php:76
+#, php-format
+msgid "<h2 class='center'>Sorry, but there aren't any posts by %s yet.</h2>"
+msgstr "<h2 class='center'>Извините, но здесь пока нет записей от %s.</h2>"
+
+#: ../archive.php:78
+msgid "<h2 class='center'>No posts found.</h2>"
+msgstr "<h2 class='center'>Записи не найдены.</h2>"
+
+#: ../archive.php:85 ../page-Blog.php:120
+msgid "Edit this page"
+msgstr "Изменить страницу"
+
+#: ../archives.php:26
+msgid "Archive Index Page"
+msgstr "Главная страница архива"
+
+#: ../archives.php:29 ../image.php:23 ../page-FullWidth.php:19
+#: ../single-Portfolio.php:20 ../single.php:32
+msgid "<p class=\"serif\">Read the rest of this entry &raquo;</p>"
+msgstr "<p class=\"serif\">Читать продолжение &raquo;</p>"
+
+#: ../archives.php:37
+msgid "Archives by Year:"
+msgstr "Архив по Годам: "
+
+#: ../archives.php:42
+msgid "Archives by Month:"
+msgstr "Архив по Месяцам: "
+
+#: ../archives.php:47
+msgid "Archives by Subject:"
+msgstr "Архив по Теме: "
+
+#: ../author.php:16
+msgid "About:"
+msgstr ""
+
+#: ../author.php:19
+#, fuzzy
+msgid "Website:"
+msgstr "Сайт"
+
+#: ../author.php:20
+msgid "Profile:"
+msgstr ""
+
+#: ../author.php:24
+msgid "Posts by"
+msgstr ""
+
+#: ../author.php:32
+msgid "No posts by this author."
+msgstr ""
+
+#: ../author.php:35 ../page-Contact.php:149 ../page-FullWidth.php:26
+#: ../page-PageTemplate2.php:30 ../page-PageTemplate3.php:30
+#: ../page-PageTemplate4.php:30 ../page-PageTemplate5.php:30
+#: ../page-PageTemplate6.php:30 ../page-PageTemplate7.php:30
+#: ../page-PageTemplate8.php:30 ../page-Portfolio1Col.php:144
+#: ../page-Portfolio1ColSortable.php:201 ../page-Portfolio2Col.php:149
+#: ../page-Portfolio2ColSortable.php:200 ../page-Portfolio3Col.php:149
+#: ../page-Portfolio3ColSortable.php:200 ../page-Portfolio4Col.php:149
+#: ../page-Portfolio4ColSortable.php:200 ../page.php:26 ../sitemap.php:65
+msgid "Edit this entry."
+msgstr "Изменить"
+
+#: ../comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Эта запись защищена паролем. Введите пароль, чтобы посмотреть комментарии."
+
+#: ../comments.php:21
+msgid "No Responses"
+msgstr "Нет ответов"
+
+#: ../comments.php:44
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+#: ../comments.php:53
+msgid "Leave a Reply"
+msgstr "Добавить комментарий"
+
+#: ../comments.php:53
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Добавить комментарий для %s"
+
+#: ../comments.php:60
+#, php-format
+msgid "<p>You must be <a href=\"%s\">logged in</a> to post a comment.</p>"
+msgstr ""
+"<p>Для отправки комментария вы должны <a href=\"%s\">авторизоваться</a>.</p>"
+
+#: ../comments.php:67
+#, php-format
+msgid "Logged in as <a href=\"%1$s/wp-admin/profile.php\">%2$s</a>."
+msgstr "Вы вошли как <a href=\"%1$s/wp-admin/profile.php\">%2$s</a>."
+
+#: ../comments.php:67
+msgid "Log out of this account"
+msgstr "Выйти из этой учётной записи"
+
+#: ../comments.php:67
+msgid "Log out &raquo;"
+msgstr "Выйти &raquo;"
+
+#: ../comments.php:72 ../page-Contact.php:188
+msgid "Name"
+msgstr "Имя"
+
+#: ../comments.php:72 ../comments.php:75 ../page-Contact.php:196
+#: ../page-Contact.php:209
+msgid "(required)"
+msgstr "(обязательно)"
+
+#: ../comments.php:75
+msgid "Mail (will not be published)"
+msgstr "E-mail (не публикуется)"
+
+#: ../comments.php:78
+msgid "Website"
+msgstr "Сайт"
+
+#: ../comments.php:86
+msgid "Submit Comment"
+msgstr "Отправить"
+
+#: ../footer.php:116
+msgid ""
+" is proudly powered by <a href=\"http://wordpress.org/\"><strong>WordPress</"
+"strong></a>"
+msgstr ""
+"Сайт работает на <a href=\"%s\" title=\"Сайт работает на WordPress &#8212; "
+"современной персональной платформе для публикаций\"><strong>WordPress</"
+"strong></a>"
+
+#: ../footer.php:119
+#, php-format
+msgid " | Designed with %1$sU-Design Theme%2$s"
+msgstr ""
+
+#: ../footer.php:122
+msgid "Entries (RSS)"
+msgstr "Записи (RSS)"
+
+#: ../footer.php:125
+msgid "Comments (RSS)"
+msgstr "Комментарии (RSS)"
+
+#: ../footer.php:130 ../functions.php:575
+msgid "Back to Top"
+msgstr "Вверх"
+
+#: ../functions.php:183
+msgid "Primary Navigation"
+msgstr "Основная навигация"
+
+#: ../functions.php:207 ../sitemap.php:32 ../scripts/breadcrumbs.php:39
+msgid "Home"
+msgstr "Главная"
+
+#: ../functions.php:223
+msgid "Search for:"
+msgstr "Искать:"
+
+#: ../functions.php:225 ../scripts/breadcrumbs.php:109
+msgid "Search"
+msgstr "Поиск"
+
+#: ../functions.php:339 ../functions.php:348
+#, php-format
+msgid "Go back to %s"
+msgstr "Вернуться к %s"
+
+#: ../functions.php:395
+#, php-format
+msgid ""
+"<span class=\"time\">%1$s</span> on <a href=\"#comment-%2$s\" title=\"\">"
+"%3$s</a>"
+msgstr ""
+"<span class=\"time\">%1$s</span> в <a href=\"#comment-%2$s\" title=\"\">"
+"%3$s</a>"
+
+#: ../functions.php:395
+msgid "g:i a"
+msgstr "g:i a"
+
+#: ../functions.php:395
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: ../functions.php:396
+msgid "edit"
+msgstr "изменить"
+
+#: ../functions.php:402
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки."
+
+#: ../functions.php:463 ../widgets/latestPost-widget.php:90
+msgid "Read more"
+msgstr "Читать далее..."
+
+#: ../functions.php:481 ../functions.php:503 ../functions.php:525
+#: ../functions.php:547
+msgid "Read more..."
+msgstr "Читать далее..."
+
+#: ../functions.php:575
+msgid "Top of Page"
+msgstr "Вверх"
+
+#: ../functions.php:879 ../widgets/latestPost-widget.php:135
+msgid "Latest Posts"
+msgstr "Свежие записи"
+
+#: ../functions.php:897
+#, php-format
+msgid ""
+"%s: Widget class not found. Make sure this widget exists and the class name "
+"is correct"
+msgstr ""
+"%s: Виджет класс не найден. Убедитесь, что виджет существует и его название "
+"указано верно"
+
+#: ../functions.php:1005
+msgid "A widget area, used as a sidebar for regular pages."
+msgstr "Область виджета, используемая для боковой колонки обычных страниц"
+
+#: ../functions.php:1014
+msgid "A widget area, used as a sidebar for the Portfolio section."
+msgstr "Область виджета, используемая для боковой колонки раздела Портфолио"
+
+#: ../functions.php:1023
+msgid "A widget area, used as a sidebar for the Blog/News section."
+msgstr ""
+"Область виджета, используемая для боковой колонки раздела Блога/Новостей"
+
+#: ../functions.php:1032
+msgid "A widget area, used as a sidebar for the Contact page."
+msgstr "Область виджета, используемая для боковой колонки Страницы контактов"
+
+#: ../functions.php:1041
+msgid "A widget area, used as a sidebar for the Sitemap page."
+msgstr "Область виджета, используемая для боковой колонки Карты сайта"
+
+#: ../functions.php:1050
+msgid "Home Page Before Content"
+msgstr "Главная страница до текста"
+
+#: ../functions.php:1052
+msgid "A widget area positioned just above the Home Page Main Content area."
+msgstr "Область виджета, размещенная над основным содержанием Главной страницы"
+
+#: ../functions.php:1061 ../udesign_options_page.php:1365
+#: ../udesign_options_page.php:1367
+msgid "Home Page Column 1"
+msgstr "Домашняя страница Колонка 1"
+
+#: ../functions.php:1063
+msgid "A widget area, used as the 1st column in the Main Content area."
+msgstr ""
+"Область виджета, используемая как первая колонка в области основного "
+"содержания"
+
+#: ../functions.php:1071
+msgid "Home Page Column 2"
+msgstr "Домашняя страница Колонка 2"
+
+#: ../functions.php:1073
+msgid "A widget area, used as the 2nd column in the Main Content area."
+msgstr ""
+"Область виджета, используемая как вторая колонка в области основного "
+"содержания"
+
+#: ../functions.php:1081
+msgid "Home Page Column 3"
+msgstr "Домашняя страница Колонка 3"
+
+#: ../functions.php:1083
+msgid "A widget area, used as the 3rd column in the Main Content area."
+msgstr ""
+"Область виджета, используемая как третья колонка в области основного "
+"содержания"
+
+#: ../functions.php:1091
+msgid "Home Page Column 4"
+msgstr "Домашняя страница Колонка 4"
+
+#: ../functions.php:1093
+msgid "A widget area, used as the 4th column in the Main Content area."
+msgstr ""
+"Область виджета, используемая как четвертая колонка в области основного "
+"содержания"
+
+#: ../functions.php:1102
+msgid "Home Page After Content Row 1"
+msgstr "Домашняя стр. после 1й строки контента"
+
+#: ../functions.php:1104
+msgid "A widget area positioned just below the Home Page Main Content area."
+msgstr ""
+"Область виджета, расположенная сразу после основного содержанием Главной "
+"страницы"
+
+#: ../functions.php:1113
+msgid "Home Page After Content Row 2"
+msgstr "Домашняя стр. после  2й строки контента"
+
+#: ../functions.php:1115
+msgid "A widget area positioned just above the Bottom Widget area."
+msgstr "Область виджета, расположенная над нижней областью виджетов"
+
+#: ../functions.php:1124
+msgid "Bottom 1"
+msgstr "Основание 1"
+
+#: ../functions.php:1126
+msgid ""
+"A widget area, used as the 1st column in the Bottom area (just above the "
+"footer)."
+msgstr ""
+"Область виджета, используемая как 1я колонка в нижней части (над футером)"
+
+#: ../functions.php:1134
+msgid "Bottom 2"
+msgstr "Основание 2"
+
+#: ../functions.php:1136
+msgid ""
+"A widget area, used as the 2nd column in the Bottom area (just above the "
+"footer)."
+msgstr ""
+"Область виджета, используемая как 2я колонка в нижней части (над футером)"
+
+#: ../functions.php:1144
+msgid "Bottom 3"
+msgstr "Основание 3"
+
+#: ../functions.php:1146
+msgid ""
+"A widget area, used as the 3rd column in the Bottom area (just above the "
+"footer)."
+msgstr ""
+"Область виджета, используемая как 3я колонка в нижней части (над футером)"
+
+#: ../functions.php:1154
+msgid "Bottom 4"
+msgstr "Основание 4"
+
+#: ../functions.php:1156
+msgid ""
+"A widget area, used as the 4th column in the Bottom area (just above the "
+"footer)."
+msgstr ""
+"Область виджета, используемая как 4я колонка в Нижней части (над футером)"
+
+#: ../functions.php:1165
+msgid "A widget area, used as a sidebar for the Page Template 2."
+msgstr ""
+"Область виджета, используемая как боковая колонка для Шаблона страницы 2"
+
+#: ../functions.php:1174
+msgid "A widget area, used as a sidebar for the Page Template 3."
+msgstr ""
+"Область виджета, используемая как боковая колонка для Шаблона страницы 3"
+
+#: ../functions.php:1183
+msgid "A widget area, used as a sidebar for the Page Template 4."
+msgstr ""
+"Область виджета, используемая как боковая колонка для Шаблона страницы 4"
+
+#: ../functions.php:1192
+msgid "A widget area, used as a sidebar for the Page Template 5."
+msgstr ""
+"Область виджета, используемая как боковая колонка для Шаблона страницы 5"
+
+#: ../functions.php:1201
+msgid "A widget area, used as a sidebar for the Page Template 6."
+msgstr ""
+"Область виджета, используемая как боковая колонка для Шаблона страницы 6"
+
+#: ../functions.php:1210
+msgid "A widget area, used as a sidebar for the Page Template 7."
+msgstr ""
+"Область виджета, используемая как боковая колонка для Шаблона страницы 7"
+
+#: ../functions.php:1219
+msgid "A widget area, used as a sidebar for the Page Template 8."
+msgstr ""
+"Область виджета, используемая как боковая колонка для Шаблона страницы 8"
+
+#: ../functions.php:1228
+msgid "Top Area Social Media"
+msgstr "Верхняя область - Социальные Медиа"
+
+#: ../functions.php:1230
+msgid ""
+"A widget area positioned in the top right corner of the site designated for "
+"social media links and icons."
+msgstr ""
+"Область виджета, помещенная в правый верхний угол. Используется для "
+"социальных закладок и изображений."
+
+#: ../functions.php:1525
+#, php-format
+msgid "Archive for the <em>%s</em> Category"
+msgstr "Архив для рубрик <em>%s</em>"
+
+#: ../functions.php:1528
+#, php-format
+msgid "Search Results for <em>%s</em>"
+msgstr "Лента результатов поиска <em>%s</em>"
+
+#: ../functions.php:1530
+msgid "Page Not Found (Error 404)"
+msgstr "Страница не найдена (Ошибка 404)"
+
+#: ../functions.php:1532
+#, php-format
+msgid "Posts Tagged <em>%s</em>"
+msgstr ""
+
+#: ../functions.php:1534 ../functions.php:1536 ../functions.php:1538
+#, php-format
+msgid "Archive for %s"
+msgstr "Архив для %s"
+
+#: ../functions.php:1540
+msgid "Author Archive"
+msgstr "Архив Автора"
+
+#: ../functions.php:1542
+msgid "Blog Archives"
+msgstr "Архив блога"
+
+#: ../header.php:58
+msgid "Feedback"
+msgstr "Обратная связь"
+
+#: ../header.php:63
+msgid "Subscribe"
+msgstr "Подписаться"
+
+#: ../header.php:91
+msgid "Search..."
+msgstr "Поиск..."
+
+#: ../image.php:36
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Извините, вложений соответствующих вашим критериям, не найдено."
+
+#: ../page-Blog.php:113
+msgid "Not Found"
+msgstr "Не найдено"
+
+#: ../page-Blog.php:114
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Извините, но на этой странице нет того, что вы ищите"
+
+#: ../page-Contact.php:51 ../page-Contact.php:191
+msgid "Please enter a name"
+msgstr "Пожалуйста, введите имя"
+
+#: ../page-Contact.php:53 ../page-Contact.php:192
+msgid "Your name must consist of at least 2 characters"
+msgstr "Ваше имя должно состоять минимум из 2х знаков"
+
+#: ../page-Contact.php:57 ../page-Contact.php:59 ../page-Contact.php:198
+msgid "Please enter a valid email address"
+msgstr "Пожалуйста, введите действующий email"
+
+#: ../page-Contact.php:64
+msgid "phone number"
+msgstr "номер телефона"
+
+#: ../page-Contact.php:67
+msgid "extension"
+msgstr "расширение"
+
+#: ../page-Contact.php:71
+#, php-format
+msgid "Please enter a valid %1$s and %2$s"
+msgstr "Пожалуйста, введите действующие %1$s и %2$s"
+
+#: ../page-Contact.php:73 ../page-Contact.php:75
+#, php-format
+msgid "Please enter a valid %s"
+msgstr "Пожалуйста введите действующий %s"
+
+#: ../page-Contact.php:79
+msgid "Please enter your message"
+msgstr "Пожалуйста, введите сообщение"
+
+#: ../page-Contact.php:83 ../page-Contact.php:204
+msgid "ext."
+msgstr "дополнительно"
+
+#: ../page-Contact.php:84
+msgid "Phone: "
+msgstr "Телефон: "
+
+#: ../page-Contact.php:87
+#, php-format
+msgid "Contact Form submission from %s"
+msgstr "Уведомление формы контактов от %s"
+
+#: ../page-Contact.php:88
+msgid "Sender's name: "
+msgstr "Имя отправителя:"
+
+#: ../page-Contact.php:89
+msgid "E-mail: "
+msgstr "E-mail: "
+
+#: ../page-Contact.php:91
+msgid "Message: "
+msgstr "Сообщение: "
+
+#: ../page-Contact.php:143 ../page-PageTemplate2.php:23
+#: ../page-PageTemplate3.php:23 ../page-PageTemplate4.php:23
+#: ../page-PageTemplate5.php:23 ../page-PageTemplate6.php:23
+#: ../page-PageTemplate7.php:23 ../page-PageTemplate8.php:23
+#: ../page-Portfolio1Col.php:37 ../page-Portfolio1ColSortable.php:43
+#: ../page-Portfolio2Col.php:37 ../page-Portfolio2ColSortable.php:43
+#: ../page-Portfolio3Col.php:37 ../page-Portfolio3ColSortable.php:43
+#: ../page-Portfolio4Col.php:37 ../page-Portfolio4ColSortable.php:43
+#: ../page.php:19
+msgid "<p class=\"serif\">Read the rest of this page &raquo;</p>"
+msgstr "<p class=\"serif\">Читать далее &raquo;</p>"
+
+#: ../page-Contact.php:173
+msgid "Email Successfully Sent!"
+msgstr "Email успешно отправлен!"
+
+#: ../page-Contact.php:174
+#, php-format
+msgid ""
+"Thank you <strong>%s</strong> for using our contact form! Your email was "
+"successfully sent and we will be in touch with you shortly."
+msgstr ""
+"Спасибо <strong>%s</strong> за ваше сообщение! Ваш email был успешно "
+"отправлен. Мы скоро с Вами свяжемся."
+
+#: ../page-Contact.php:180
+msgid "Failed to connect to mailserver!"
+msgstr "Не удалось соедениться с почтовым сервером!"
+
+#: ../page-Contact.php:186
+msgid "Please use the form below to send us an email:"
+msgstr "Пожалуйста, воспользуйтесь формой ниже, что бы написать нам:"
+
+#: ../page-Contact.php:188
+msgid "(required, at least 2 characters)"
+msgstr "(обязательно, не менее 2х знаков)"
+
+#: ../page-Contact.php:190
+msgid "required"
+msgstr "обазательно"
+
+#: ../page-Contact.php:196
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: ../page-Contact.php:202
+msgid "Phone"
+msgstr "Телефон"
+
+#: ../page-Contact.php:202
+msgid "(optional)"
+msgstr "(по желанию)"
+
+#: ../page-Contact.php:209
+msgid "Your comment"
+msgstr "Ваше сообщение"
+
+#: ../page-Contact.php:211
+msgid "<br />Please enter your message"
+msgstr "<br />Пожалуйста, введите Ваше сообщение"
+
+#: ../page-Contact.php:223
+msgid "Submit"
+msgstr "Отправить"
+
+#: ../page-Portfolio1Col.php:51 ../page-Portfolio2Col.php:51
+#: ../page-Portfolio3Col.php:51 ../page-Portfolio4Col.php:51 ../sitemap.php:36
+#: ../widgets/customCategory-widget.php:111
+msgid "Categories"
+msgstr "Рубрики"
+
+#: ../page-Portfolio1Col.php:54 ../page-Portfolio1Col.php:56
+#: ../page-Portfolio2Col.php:54 ../page-Portfolio2Col.php:56
+#: ../page-Portfolio3Col.php:54 ../page-Portfolio3Col.php:56
+#: ../page-Portfolio4Col.php:54 ../page-Portfolio4Col.php:56
+msgid "All"
+msgstr "Все"
+
+#: ../page-Portfolio1Col.php:137 ../page-Portfolio1ColSortable.php:194
+#: ../page-Portfolio2Col.php:142 ../page-Portfolio2ColSortable.php:193
+#: ../page-Portfolio3Col.php:142 ../page-Portfolio3ColSortable.php:193
+#: ../page-Portfolio4Col.php:142 ../page-Portfolio4ColSortable.php:193
+msgid "Portfolio section for this page has not been found!"
+msgstr "Секции Портфолио для этой страницы не найдено"
+
+#: ../page-Portfolio1Col.php:138 ../page-Portfolio1ColSortable.php:195
+#: ../page-Portfolio2Col.php:143 ../page-Portfolio2ColSortable.php:194
+#: ../page-Portfolio3Col.php:143 ../page-Portfolio3ColSortable.php:194
+#: ../page-Portfolio4Col.php:143 ../page-Portfolio4ColSortable.php:194
+msgid ""
+"<strong>Reason:</strong> No category has been assigned as Portfolio section "
+"for this page yet. In order to fix this, go to the theme's options page and "
+"assign a category for this page."
+msgstr ""
+"<strong>Причина:</strong> Для этой секции Портфолио еще нет ни одной "
+"рубрики. Что бы изменить это, перейдите на страницу настройки темы и "
+"назначьте рубрику для этой страницы."
+
+#: ../page-Portfolio1ColSortable.php:57 ../page-Portfolio2ColSortable.php:57
+#: ../page-Portfolio3ColSortable.php:57 ../page-Portfolio4ColSortable.php:57
+#, fuzzy
+msgid "Categories:"
+msgstr "Рубрики"
+
+#: ../page-Portfolio1ColSortable.php:58 ../page-Portfolio1ColSortable.php:89
+#: ../page-Portfolio2ColSortable.php:58 ../page-Portfolio2ColSortable.php:89
+#: ../page-Portfolio3ColSortable.php:58 ../page-Portfolio3ColSortable.php:89
+#: ../page-Portfolio4ColSortable.php:58 ../page-Portfolio4ColSortable.php:89
+msgid "Show All"
+msgstr ""
+
+#: ../page-Portfolio1ColSortable.php:88 ../page-Portfolio2ColSortable.php:88
+#: ../page-Portfolio3ColSortable.php:88 ../page-Portfolio4ColSortable.php:88
+#, fuzzy
+msgid "Tags:"
+msgstr "Страницы"
+
+#: ../page-Portfolio1ColSortable.php:103 ../page-Portfolio2ColSortable.php:103
+#: ../page-Portfolio3ColSortable.php:103 ../page-Portfolio4ColSortable.php:103
+msgid "Sort By:"
+msgstr ""
+
+#: ../page-Portfolio1ColSortable.php:104 ../page-Portfolio2ColSortable.php:104
+#: ../page-Portfolio3ColSortable.php:104 ../page-Portfolio4ColSortable.php:104
+msgid "Original Order"
+msgstr ""
+
+#: ../page-Portfolio1ColSortable.php:106 ../page-Portfolio2ColSortable.php:106
+#: ../page-Portfolio3ColSortable.php:106 ../page-Portfolio4ColSortable.php:106
+msgid "Alphabetical"
+msgstr ""
+
+#: ../page-Portfolio1ColSortable.php:110 ../page-Portfolio2ColSortable.php:110
+#: ../page-Portfolio3ColSortable.php:110 ../page-Portfolio4ColSortable.php:110
+msgid "Ascending"
+msgstr ""
+
+#: ../page-Portfolio1ColSortable.php:111 ../page-Portfolio2ColSortable.php:111
+#: ../page-Portfolio3ColSortable.php:111 ../page-Portfolio4ColSortable.php:111
+msgid "Descending"
+msgstr ""
+
+#: ../search.php:52
+msgid "Didn't find what you were looking for? Refine your search!"
+msgstr "Не нашли то, что искали? Воспользуйтесь расширенным поиском!"
+
+#: ../sidebar-BlogSidebar.php:20 ../sidebar-ContactSidebar.php:20
+#: ../sidebar-PagesSidebar2.php:19 ../sidebar-PagesSidebar3.php:19
+#: ../sidebar-PagesSidebar4.php:19 ../sidebar-PagesSidebar5.php:19
+#: ../sidebar-PagesSidebar6.php:19 ../sidebar-PagesSidebar7.php:19
+#: ../sidebar-PagesSidebar8.php:19 ../sidebar-PortfolioSidebar.php:22
+#: ../sidebar-SitemapSidebar.php:20 ../sidebar.php:19
+msgid "About This Sidebar"
+msgstr "Об этой боковой колонке"
+
+#: ../sidebar-BlogSidebar.php:22
+msgid ""
+"To edit this sidebar, go to admin backend's <strong><em>Appearance -> "
+"Widgets</em></strong> and place widgets into the <strong><em>BlogSidebar</"
+"em></strong> Widget Area"
+msgstr ""
+"Чтобы отредактировать эту боковую панель, перейдите в панель "
+"управления<strong><em> Внешний вид -> Виджеты </em></strong>, и поместите "
+"Виджеты в <strong><em> Боковая колонка блога</em></strong> область Виджета"
+
+#: ../sidebar-ContactSidebar.php:22
+msgid ""
+"To edit this sidebar, go to admin backend's <strong><em>Appearance -> "
+"Widgets</em></strong> and place widgets into the <strong><em>ContactSidebar</"
+"em></strong> Widget Area"
+msgstr ""
+"Чтобы отредактировать эту боковую панель, перейдите в панель "
+"управления<strong><em> Внешний вид -> Виджеты </em></strong>, и поместите "
+"Виджеты в <strong><em> Боковая колонка Контакты</em></strong> область Виджета"
+
+#: ../sidebar-PagesSidebar2.php:21
+msgid ""
+"To edit this sidebar, go to admin backend's <strong><em>Appearance -> "
+"Widgets</em></strong> and place widgets into the <strong><em>Pages Sidebar "
+"2</em></strong> Widget Area"
+msgstr ""
+"Чтобы отредактировать эту боковую панель, перейдите в панели "
+"управления<strong><em> Внешний вид -> Виджеты </em></strong>, и поместите "
+"Виджеты в <strong><em> Боковая колонка Страницы 2</em></strong> область "
+"Виджета"
+
+#: ../sidebar-PagesSidebar3.php:21
+msgid ""
+"To edit this sidebar, go to admin backend's <strong><em>Appearance -> "
+"Widgets</em></strong> and place widgets into the <strong><em>Pages Sidebar "
+"3</em></strong> Widget Area"
+msgstr ""
+"Чтобы отредактировать эту боковую панель, перейдите в панели "
+"управления<strong><em> Внешний вид -> Виджеты </em></strong>, и поместите "
+"Виджеты в <strong><em> Боковая колонка Страницы 3</em></strong> область "
+"Виджета"
+
+#: ../sidebar-PagesSidebar4.php:21
+msgid ""
+"To edit this sidebar, go to admin backend's <strong><em>Appearance -> "
+"Widgets</em></strong> and place widgets into the <strong><em>Pages Sidebar "
+"4</em></strong> Widget Area"
+msgstr ""
+"Чтобы отредактировать эту боковую панель, перейдите в панели "
+"управления<strong><em> Внешний вид -> Виджеты </em></strong>, и поместите "
+"Виджеты в <strong><em> Боковая колонка Страницы 4</em></strong> область "
+"Виджета"
+
+#: ../sidebar-PagesSidebar5.php:21
+msgid ""
+"To edit this sidebar, go to admin backend's <strong><em>Appearance -> "
+"Widgets</em></strong> and place widgets into the <strong><em>Pages Sidebar "
+"5</em></strong> Widget Area"
+msgstr ""
+"Чтобы отредактировать эту боковую панель, перейдите в панели "
+"управления<strong><em> Внешний вид -> Виджеты </em></strong>, и поместите "
+"Виджеты в <strong><em> Боковая колонка Страницы 5</em></strong> область "
+"Виджета"
+
+#: ../sidebar-PagesSidebar6.php:21
+msgid ""
+"To edit this sidebar, go to admin backend's <strong><em>Appearance -> "
+"Widgets</em></strong> and place widgets into the <strong><em>Pages Sidebar "
+"6</em></strong> Widget Area"
+msgstr ""
+"Чтобы отредактировать эту боковую панель, перейдите в панели "
+"управления<strong><em> Внешний вид -> Виджеты </em></strong>, и поместите "
+"Виджеты в <strong><em> Боковая колонка Страницы 6</em></strong> область "
+"Виджета"
+
+#: ../sidebar-PagesSidebar7.php:21
+msgid ""
+"To edit this sidebar, go to admin backend's <strong><em>Appearance -> "
+"Widgets</em></strong> and place widgets into the <strong><em>Pages Sidebar "
+"7</em></strong> Widget Area"
+msgstr ""
+"Чтобы отредактировать эту боковую панель, перейдите в панели "
+"управления<strong><em> Внешний вид -> Виджеты </em></strong>, и поместите "
+"Виджеты в <strong><em> Боковая колонка Страницы 7</em></strong> область "
+"Виджета"
+
+#: ../sidebar-PagesSidebar8.php:21
+msgid ""
+"To edit this sidebar, go to admin backend's <strong><em>Appearance -> "
+"Widgets</em></strong> and place widgets into the <strong><em>Pages Sidebar "
+"8</em></strong> Widget Area"
+msgstr ""
+"Чтобы отредактировать эту боковую панель, перейдите в панели "
+"управления<strong><em> Внешний вид -> Виджеты </em></strong>, и поместите "
+"Виджеты в <strong><em> Боковая колонка Страницы 8</em></strong> область "
+"Виджета"
+
+#: ../sidebar-PortfolioSidebar.php:24
+msgid ""
+"To edit this sidebar, go to admin backend's <strong><em>Appearance -> "
+"Widgets</em></strong> and place widgets into the "
+"<strong><em>PortfolioSidebar</em></strong> Widget Area"
+msgstr ""
+"Чтобы отредактировать эту боковую панель, перейдите в панели "
+"управления<strong><em> Внешний вид -> Виджеты </em></strong>, и поместите "
+"Виджеты в <strong><em> Боковая колонка Портфолио</em></strong> область "
+"Виджета"
+
+#: ../sidebar-SitemapSidebar.php:22
+msgid ""
+"To edit this sidebar, go to admin backend's <strong><em>Appearance -> "
+"Widgets</em></strong> and place widgets into the <strong><em>SitemapSidebar</"
+"em></strong> Widget Area"
+msgstr ""
+"Чтобы отредактировать эту боковую панель, перейдите в панели "
+"управления<strong><em> Внешний вид -> Виджеты </em></strong>, и поместите "
+"Виджеты в <strong><em> Боковая колонка Карта сайта</em></strong> область "
+"Виджета"
+
+#: ../sidebar.php:21
+msgid ""
+"To edit this sidebar, go to admin backend's <strong><em>Appearance -> "
+"Widgets</em></strong> and place widgets into the <strong><em>Pages Sidebar</"
+"em></strong> Widget Area"
+msgstr ""
+"Чтобы отредактировать эту боковую панель, перейдите в панели "
+"управления<strong><em> Внешний вид -> Виджеты </em></strong>, и поместите "
+"Виджеты в <strong><em> Боковая колонка Страницы</em></strong> область Виджета"
+
+#: ../single-Portfolio.php:44 ../single.php:50
+msgid "Sorry, no posts matched your criteria."
+msgstr "Извините, нет записей, удовлетворяющих вашим условиям."
+
+#: ../sitemap.php:24
+msgid "Site Feeds"
+msgstr "Фиды"
+
+#: ../sitemap.php:26
+msgid "Main RSS Feed"
+msgstr ""
+
+#: ../sitemap.php:27
+#, fuzzy
+msgid "Comments RSS Feed"
+msgstr "Комментарии (RSS)"
+
+#: ../sitemap.php:30
+msgid "Pages"
+msgstr "Страницы"
+
+#: ../sitemap.php:41
+msgid "Monthly Archives"
+msgstr "Ежемесячные архивы"
+
+#: ../sitemap.php:46
+#, fuzzy
+msgid "Tags"
+msgstr "Страницы"
+
+#: ../sitemap.php:52
+msgid "All Articles"
+msgstr "Все статьи"
+
+#: ../sitemap.php:56
+msgid "j-M-y"
+msgstr ""
+
+#: ../sitemap.php:56
+#, fuzzy
+msgid "0 Comment"
+msgstr "1 комментарий"
+
+#: ../udesign_options_page.php:358
+msgid "U-Design"
+msgstr "U-Design"
+
+#: ../udesign_options_page.php:383
+msgid "Help"
+msgstr "Помощь"
+
+#: ../udesign_options_page.php:384
+msgid "General Options"
+msgstr "Основные Настройки"
+
+#: ../udesign_options_page.php:385
+msgid "Font Settings"
+msgstr "Настройки Шрифта"
+
+#: ../udesign_options_page.php:386
+msgid "Custom Colors"
+msgstr "Выбор Цвета"
+
+#: ../udesign_options_page.php:387
+msgid "Front Page Sliders"
+msgstr "Слайдер Главной Страницы"
+
+#: ../udesign_options_page.php:388
+msgid "Portfolio Section"
+msgstr "Портфолио"
+
+#: ../udesign_options_page.php:389
+msgid "Blog Section"
+msgstr "Блог"
+
+#: ../udesign_options_page.php:390
+msgid "Contact Page"
+msgstr "Страница Контактов"
+
+#: ../udesign_options_page.php:391
+msgid "Footer Options"
+msgstr "Настройки Футера"
+
+#: ../udesign_options_page.php:392
+msgid "Statistics"
+msgstr "Статистика"
+
+#: ../udesign_options_page.php:393
+msgid "Responsive Layout"
+msgstr ""
+
+#: ../udesign_options_page.php:403
+msgid "Settings saved."
+msgstr "Настройки сохранены."
+
+#: ../udesign_options_page.php:419
+#, php-format
+msgid "Options <small>(version %1$s)</small>"
+msgstr "Настройки <small>(версия %1$s)</small>"
+
+#: ../udesign_options_page.php:443 ../udesign_options_page.php:5341
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: ../udesign_options_page.php:446
+msgid "Reset to defaults"
+msgstr "Вернуть начальные установки"
+
+#: ../udesign_options_page.php:1125
+msgid "Cheatin' uh?"
+msgstr ""
+
+#: ../udesign_options_page.php:1154
+msgid "U-Design theme help resources:"
+msgstr "Помощь по U-Design теме:"
+
+#: ../udesign_options_page.php:1156
+msgid "Documentation"
+msgstr "Документация"
+
+#: ../udesign_options_page.php:1157
+msgid "Video Tutorials (Author's YouTube Tutorials Channel)"
+msgstr "Видео уроки (Уроки Автора на YouTube)"
+
+#: ../udesign_options_page.php:1158
+msgid "U-Design Demo Site"
+msgstr "U-Design Демо сайт"
+
+#: ../udesign_options_page.php:1159
+msgid "U-Design Shortcodes"
+msgstr "U-Design короткий код (Shortcodes)"
+
+#: ../udesign_options_page.php:1160
+msgid ""
+"Get the Code: All of the Home page examples source code is available here."
+msgstr "Получить Код: Пример всего исходного кода Домашней страницы."
+
+#: ../udesign_options_page.php:1161
+msgid "Support Forum"
+msgstr "Форум поддержки"
+
+#: ../udesign_options_page.php:1162
+msgid "Contact the Author"
+msgstr "Связаться с автором"
+
+#: ../udesign_options_page.php:1172
+msgid "Custom Logo"
+msgstr "Выбрать логотип"
+
+#: ../udesign_options_page.php:1175
+msgid "Enter a URL or upload an image for your logo:"
+msgstr "Введите URL или загрузите картинку с Вашим логотипом"
+
+#: ../udesign_options_page.php:1177 ../udesign_options_page.php:5275
+msgid "Upload Logo"
+msgstr "Загрузить логотип"
+
+#: ../udesign_options_page.php:1180
+msgid ""
+"To upload an image click on \"Upload Logo\" button. Once the image is "
+"uploaded it will give you various options. Click on \"Insert into Post\" "
+"button. Once you click on \"Insert into Post\", link with the uploaded image "
+"will be inserted into the text field above."
+msgstr ""
+"Чтобы загрузить изображение нажмите кнопку \"Загрузить логотип\". После "
+"этого вам будут доступны различные опции. После того, как Вы нажимете "
+"\"Вставить в запись\", ссылка с загруженным изображением будет вставлена в "
+"текстовую область выше."
+
+#: ../udesign_options_page.php:1184
+msgid "Top Area Height"
+msgstr "Высота верхней части сайта"
+
+#: ../udesign_options_page.php:1187
+msgid "(Height) in pixels."
+msgstr "(Высота) в пикселях."
+
+#: ../udesign_options_page.php:1188
+msgid "Note: the minimum recommended height is 55px."
+msgstr "Обратите внимание: минимальная рекомендуемая высота 55px."
+
+#: ../udesign_options_page.php:1192
+msgid "Logo Dimensions"
+msgstr "Размер логотипа"
+
+#: ../udesign_options_page.php:1197
+msgid "(Width X Height) in pixels."
+msgstr "(Ширина Х Высота) в пикселях."
+
+#: ../udesign_options_page.php:1201
+msgid "Slogan Position from the Top"
+msgstr "Отступ слогана сверху"
+
+#: ../udesign_options_page.php:1204
+msgid "from the top."
+msgstr "от верхнего края."
+
+#: ../udesign_options_page.php:1208
+msgid "Slogan Position from the Left"
+msgstr "Отступ слогана от левого края"
+
+#: ../udesign_options_page.php:1211
+msgid "from the left. Enter a number between 0 and 400."
+msgstr "слева. Введите число от 0 до 400"
+
+#: ../udesign_options_page.php:1212
+#, php-format
+msgid ""
+"Please note that the actual Slogan text can be changed or deleted at "
+"%1$sSettings -> General%2$s <strong>Tagline</strong> option."
+msgstr ""
+"Обратите внимание: Текущий текст слогана может быть изменен или удален в "
+"%1$sПараметры ->Общие %2$s, поле <strong>Краткое описание</strong>."
+
+#: ../udesign_options_page.php:1216
+msgid "Slogan Font Size"
+msgstr "Размер шрифта слогана"
+
+#: ../udesign_options_page.php:1219 ../udesign_options_page.php:1588
+#: ../udesign_options_page.php:1644 ../udesign_options_page.php:4151
+#: ../udesign_options_page.php:4435
+msgid "Font Size: "
+msgstr "Размер шрифта:"
+
+#: ../udesign_options_page.php:1249
+msgid "Phone Number Information"
+msgstr "Телефонный номер"
+
+#: ../udesign_options_page.php:1252
+msgid ""
+"Use this field to provide a phone number or any other short piece of "
+"information (30 character limit for display).  It is displayed near the "
+"search box located at the top right corner of the theme."
+msgstr ""
+"Используйте это поле для ввода номера телефона или любой другой короткой "
+"информации (ограничено 30 знаками). Отображается рядом с окном поиска в "
+"правом верхнем углу темы."
+
+#: ../udesign_options_page.php:1256
+msgid "Search Box"
+msgstr "Поле для поиска"
+
+#: ../udesign_options_page.php:1260
+msgid "Enable the Search box displayed in the top area of the page."
+msgstr "Включить Поле для поиска в верхней части сайта"
+
+#: ../udesign_options_page.php:1265
+msgid "Page Peel"
+msgstr "Угол страницы"
+
+#: ../udesign_options_page.php:1269
+msgid ""
+"Enable Page Peel (Display the page curl/peel located in the top right corner "
+"of the site).  Could be used for your FeedBurner subscription or advertising."
+msgstr ""
+"Включить Угол страницы (Покажет завиток страницы в правом верхнем углу "
+"сайта). Может быть использвана для Вашей FeedBurner подписки или рекламы."
+
+#: ../udesign_options_page.php:1271
+msgid "Page Peel Link URL:"
+msgstr "Ссылка на URL Угла страницы:"
+
+#: ../udesign_options_page.php:1276
+msgid "Feedback Button"
+msgstr "Кнопка обратной связи"
+
+#: ../udesign_options_page.php:1280
+#, fuzzy
+msgid ""
+"Enable Feedback button (Display the Feedback button located in the most left "
+"side of the site)"
+msgstr ""
+"Включить кнопку обратной связи (Отображает кнопку обратной связи в самой "
+"левой части сайта)"
+
+#: ../udesign_options_page.php:1282
+msgid "Feedback Button URL:"
+msgstr "URL кнопки обратной связи:"
+
+#: ../udesign_options_page.php:1287
+msgid ""
+"Fix the position of the \"Feedback\" button to prevent it from scrolling "
+"with the page."
+msgstr ""
+"Зафиксировать позицию кнопки \"Feedback\" (кнопки обратной связи), чтобы при "
+"прокрутке страницы, кнопка оставалась на экране."
+
+#: ../udesign_options_page.php:1292
+msgid "Enable prettyPhoto script"
+msgstr "Включить prettyPhoto скрипт"
+
+#: ../udesign_options_page.php:1296
+#, fuzzy, php-format
+msgid ""
+"Enable %1$sprettyPhoto%2$s script. In case of conflicts with some other "
+"lightbox plugins you may wish to disable the %1$sprettyPhoto%2$s script."
+msgstr ""
+"Включить %1$sprettyPhoto%2$s скрипт. В случае конфликтов с некоторыми "
+"другими плагинами  lightbox Вы можете отключить %1$sprettyPhoto%2$s скрипт. "
+"Этот скрипт отключится автоматически, если Вы устанавите и активируете "
+"%3$sWP-prettyPhoto%4$s плагин."
+
+#: ../udesign_options_page.php:1301
+#, fuzzy
+msgid "Main Menu Position"
+msgstr "Фиксированное расположение"
+
+#: ../udesign_options_page.php:1303 ../udesign_options_page.php:1411
+#: ../udesign_options_page.php:1420 ../udesign_options_page.php:1429
+#: ../udesign_options_page.php:1438 ../udesign_options_page.php:1447
+#: ../udesign_options_page.php:1456 ../udesign_options_page.php:1465
+#: ../udesign_options_page.php:1474 ../udesign_options_page.php:1483
+#: ../udesign_options_page.php:4718 ../udesign_options_page.php:4734
+#: ../udesign_options_page.php:4810 ../udesign_options_page.php:5050
+msgid "Choose position:"
+msgstr "Выбрать расположение:"
+
+#: ../udesign_options_page.php:1304 ../udesign_options_page.php:1412
+#: ../udesign_options_page.php:1421 ../udesign_options_page.php:1430
+#: ../udesign_options_page.php:1439 ../udesign_options_page.php:1448
+#: ../udesign_options_page.php:1457 ../udesign_options_page.php:1466
+#: ../udesign_options_page.php:1475 ../udesign_options_page.php:1484
+#: ../udesign_options_page.php:4735 ../udesign_options_page.php:4811
+#: ../udesign_options_page.php:4983 ../udesign_options_page.php:5051
+msgid "Left"
+msgstr "Слева"
+
+#: ../udesign_options_page.php:1305 ../udesign_options_page.php:1413
+#: ../udesign_options_page.php:1422 ../udesign_options_page.php:1431
+#: ../udesign_options_page.php:1440 ../udesign_options_page.php:1449
+#: ../udesign_options_page.php:1458 ../udesign_options_page.php:1467
+#: ../udesign_options_page.php:1476 ../udesign_options_page.php:1485
+#: ../udesign_options_page.php:4736 ../udesign_options_page.php:4812
+#: ../udesign_options_page.php:4985 ../udesign_options_page.php:5052
+msgid "Right"
+msgstr "Справа"
+
+#: ../udesign_options_page.php:1306
+msgid "This option sets the main navigation menu alignment."
+msgstr ""
+
+#: ../udesign_options_page.php:1310
+msgid "Breadcrumbs"
+msgstr "Хлебные крошки"
+
+#: ../udesign_options_page.php:1312 ../udesign_options_page.php:1315
+msgid "Show Breadcrumbs"
+msgstr "Показать Хлебные крошки"
+
+#: ../udesign_options_page.php:1321 ../udesign_options_page.php:1323
+msgid "Top Menu Auto Arrows"
+msgstr "Авто стрелки верхнего меню"
+
+#: ../udesign_options_page.php:1326
+#, fuzzy
+msgid ""
+"Show the top navigation menu's auto arrows. Those are the arrows indicating "
+"a submenu. "
+msgstr ""
+"Показать авто стрелки в верхнем навигационном меню. Эти стрелки указывают на "
+"наличие подменю."
+
+#: ../udesign_options_page.php:1332 ../udesign_options_page.php:1334
+msgid "Top Menu Drop Shadows"
+msgstr "Тень выпадающего верхнего меню"
+
+#: ../udesign_options_page.php:1337
+msgid "Enable drop shadows to the sub-menus. "
+msgstr "Включить тень для выпадающего меню."
+
+#: ../udesign_options_page.php:1343 ../udesign_options_page.php:1345
+msgid "Border Under the Menu"
+msgstr "Граница под меню"
+
+#: ../udesign_options_page.php:1348
+msgid "Remove the border line located under the menu. "
+msgstr "Удалить границу, расположенную под меню"
+
+#: ../udesign_options_page.php:1354
+msgid "Default Post Thumbnail"
+msgstr "Миниатюра записи (по умолчанию)"
+
+#: ../udesign_options_page.php:1356
+msgid "Enable Default Thumb"
+msgstr "Включить Миниатюру по умолчанию"
+
+#: ../udesign_options_page.php:1359
+msgid ""
+"Enable default thumbnail for posts (This options is used with the \"U-"
+"Design: Recent Posts\" widget)."
+msgstr ""
+"Включить Миниатюру по умолчанию для записей (Эта опция используется с "
+"виджетом \"U-Design: Свежие Записи\")."
+
+#: ../udesign_options_page.php:1370
+msgid ""
+"Set the width of the \"Home Page Column 1\" Widget Area as constant 1/3 "
+"width (Applies only to a two column layout, in other words having the first "
+"widget area \"Home Page Column 1\" in combination with any of the other "
+"widget areas being active)."
+msgstr ""
+"Устанавливает постоянную ширину для области виджета \"Домашняя страница "
+"Колонка 1\" равной 1/3 (применяется только к 2х колоночному шаблону, т.е. у "
+"Вас будет \"Домашняя страница Колонка 1\" комбинироваться с любой другой "
+"активной областью виджета)"
+
+#: ../udesign_options_page.php:1381
+#, fuzzy
+msgid "Page Title"
+msgstr "Цвета названия страниц"
+
+#: ../udesign_options_page.php:1385 ../udesign_options_page.php:1396
+#, fuzzy
+msgid "Title Position 1"
+msgstr "Фиксированное расположение"
+
+#: ../udesign_options_page.php:1386 ../udesign_options_page.php:1397
+#, fuzzy
+msgid "Title Position 2"
+msgstr "Фиксированное расположение"
+
+#: ../udesign_options_page.php:1387 ../udesign_options_page.php:1398
+msgid "Remove Title (SEO-Friendly)"
+msgstr ""
+
+#: ../udesign_options_page.php:1388 ../udesign_options_page.php:1399
+msgid "Remove Title Completely"
+msgstr ""
+
+#: ../udesign_options_page.php:1393 ../udesign_options_page.php:1556
+#: ../udesign_options_page.php:1746 ../udesign_options_page.php:2441
+msgid "Update"
+msgstr "Обновить"
+
+#: ../udesign_options_page.php:1396
+msgid ""
+"Display Title immediately under the Main Menu, it spans the full width of "
+"page."
+msgstr ""
+
+#: ../udesign_options_page.php:1397
+msgid "Display Title inside Main Content, it spans the main content width."
+msgstr ""
+
+#: ../udesign_options_page.php:1398
+msgid ""
+"Remove Title visually, so that human visitors will not see it, yet it will "
+"still be served as an \"h1\" heading to search engine spiders."
+msgstr ""
+
+#: ../udesign_options_page.php:1399
+msgid ""
+" ... just as it says! A word of caution, when using this option keep in mind "
+"that your pages will be left without an \"h1\" heading. It is your "
+"responsibility to look after that."
+msgstr ""
+
+#: ../udesign_options_page.php:1409
+msgid "Default Pages Sidebar Position"
+msgstr "Расположение  Боковой колонки \"Страниц\" по умолчанию"
+
+#: ../udesign_options_page.php:1414
+msgid ""
+"This is the sidebar position for all pages assigned with \"Default Template"
+"\"."
+msgstr ""
+"Это расположение боковой колонки для всех страниц используемых \"Шаблон по "
+"умолчанию\"."
+
+#: ../udesign_options_page.php:1418
+msgid "Default Pages Sidebar 2 Position"
+msgstr "Расположение боковой колонки Страница 2"
+
+#: ../udesign_options_page.php:1423
+msgid ""
+"This is the sidebar position for all pages assigned with \"Page Template 2\"."
+msgstr ""
+"Эта Боковая колонка используется для всех страниц с \"Шаблоном страницы 2\"."
+
+#: ../udesign_options_page.php:1427
+msgid "Default Pages Sidebar 3 Position"
+msgstr "Расположение боковой колонки Страница 3"
+
+#: ../udesign_options_page.php:1432
+msgid ""
+"This is the sidebar position for all pages assigned with \"Page Template 3\"."
+msgstr ""
+"Эта Боковая колонка используется для всех страниц с \"Шаблоном страницы 3\"."
+
+#: ../udesign_options_page.php:1436
+msgid "Default Pages Sidebar 4 Position"
+msgstr "Расположение боковой колонки Страница 4"
+
+#: ../udesign_options_page.php:1441
+msgid ""
+"This is the sidebar position for all pages assigned with \"Page Template 4\"."
+msgstr ""
+"Эта Боковая колонка используется для всех страниц с \"Шаблоном страницы 4\"."
+
+#: ../udesign_options_page.php:1445
+msgid "Default Pages Sidebar 5 Position"
+msgstr "Расположение боковой колонки Страница 5"
+
+#: ../udesign_options_page.php:1450
+msgid ""
+"This is the sidebar position for all pages assigned with \"Page Template 5\"."
+msgstr ""
+"Эта Боковая колонка используется для всех страниц с \"Шаблоном страницы 5\"."
+
+#: ../udesign_options_page.php:1454
+msgid "Default Pages Sidebar 6 Position"
+msgstr "Расположение боковой колонки Страница 6"
+
+#: ../udesign_options_page.php:1459
+msgid ""
+"This is the sidebar position for all pages assigned with \"Page Template 6\"."
+msgstr ""
+"Эта Боковая колонка используется для всех страниц с \"Шаблоном страницы 6\"."
+
+#: ../udesign_options_page.php:1463
+msgid "Default Pages Sidebar 7 Position"
+msgstr "Расположение боковой колонки Страница 7"
+
+#: ../udesign_options_page.php:1468
+msgid ""
+"This is the sidebar position for all pages assigned with \"Page Template 7\"."
+msgstr ""
+"Эта Боковая колонка используется для всех страниц с \"Шаблоном страницы 7\"."
+
+#: ../udesign_options_page.php:1472
+msgid "Default Pages Sidebar 8 Position"
+msgstr "Расположение боковой колонки Страница 8"
+
+#: ../udesign_options_page.php:1477
+msgid ""
+"This is the sidebar position for all pages assigned with \"Page Template 8\"."
+msgstr ""
+"Эта Боковая колонка используется для всех страниц с \"Шаблоном страницы 8\"."
+
+#: ../udesign_options_page.php:1481
+msgid "Sitemap Page Sidebar Position"
+msgstr "Расположение боковой колонки Карты сайта"
+
+#: ../udesign_options_page.php:1486
+msgid ""
+"This is the sidebar position for all pages assigned with \"Sitemap page\" "
+"template."
+msgstr ""
+"Эта Боковая колонка используется для всех страниц с шаблоном \"Карта сайта\"."
+
+#: ../udesign_options_page.php:1490 ../udesign_options_page.php:1492
+msgid "Show Comments on Pages"
+msgstr "Показать комментарии на страницах"
+
+#: ../udesign_options_page.php:1495
+#, fuzzy
+msgid ""
+"Show Comments on Pages. Those are the pages assigned with the 'Default "
+"Page', 'Page Template 2', ..., 'Page Template 8' and 'Full-width Page' "
+"templates. Additionally, you can 'Allow' these comments from the individual "
+"page's configuration."
+msgstr ""
+"Показать комментарии на страницах. Применимо к страницам с шаблонами "
+"\"Страницы по умолчанию\", \"Шаблон страницы 2\", \"Шаблон страницы 3\" и "
+"\"Шаблон страницы 4\". Дополнительно Вы можете \"разрешить\" это "
+"комментирование в индивидуальных настройках страницы."
+
+#: ../udesign_options_page.php:1501 ../udesign_options_page.php:1503
+msgid "Disable Theme Update Notifier"
+msgstr "Отключить умедомление об обновлении темы"
+
+#: ../udesign_options_page.php:1506
+msgid "Disable the theme's notification of new updates."
+msgstr "Отключить уведомления темы о новых обновлениях."
+
+#: ../udesign_options_page.php:1512 ../udesign_options_page.php:1514
+#, fuzzy
+msgid "Disable TimThumb"
+msgstr "Отключить"
+
+#: ../udesign_options_page.php:1517
+msgid "Disable the use of TimThumb script for cropping images."
+msgstr ""
+
+#: ../udesign_options_page.php:1523
+#, php-format
+msgid "Enable %1$sstyle.css%2$s"
+msgstr "Включить %1$sstyle.css%2$s"
+
+#: ../udesign_options_page.php:1525
+msgid "Enable \"style.css\""
+msgstr "Включить \"style.css\""
+
+#: ../udesign_options_page.php:1528
+#, php-format
+msgid ""
+"Enable the %1$sstyle.css%2$s located in the theme's root folder. You can "
+"then edit that file from %3$sAppearance -> Edit%4$s to add any custom CSS. "
+"You would also need to enable this option if you want to use a %5$schild "
+"theme%6$s."
+msgstr ""
+"Включить %1$sstyle.css%2$s расположенный в коренной папке темы. Тогда вы "
+"сможете изметить этот файл из %3$sВнешний вид -> Изменить%4$s для добавления "
+"любых стилей CSS. Так же, Вам необходимо включить эту опцию, если вы хотите "
+"использовать %5$sдочернюю тему%6$s."
+
+#: ../udesign_options_page.php:1543
+msgid "Google WebFont Directory"
+msgstr "Использовать Google WebFont"
+
+#: ../udesign_options_page.php:1545
+msgid "Google Web Fonts"
+msgstr ""
+
+#: ../udesign_options_page.php:1548
+msgid "Enable Google WebFonts."
+msgstr "Включить Google WebFonts."
+
+#: ../udesign_options_page.php:1551
+msgid ""
+"Enable this option and hit \"Update\" to add the Google Fonts to the "
+"available fonts listed below."
+msgstr ""
+"Чтобы добавить шрифт Google, включите эту опцию и нажмите \"Обновить\" чтобы "
+"шрифты стали отображаться ниже."
+
+#: ../udesign_options_page.php:1552
+msgid "Preview the available fonts at"
+msgstr "Просмотр доступных шрифтов в"
+
+#: ../udesign_options_page.php:1562
+msgid "General Font Settings"
+msgstr "Общие настройки шрифта"
+
+#: ../udesign_options_page.php:1565 ../udesign_options_page.php:1621
+#: ../udesign_options_page.php:1678
+msgid "Font Family: "
+msgstr "Название шрифта:"
+
+#: ../udesign_options_page.php:1618
+msgid "Top Navigation Menu Font Settings"
+msgstr "Шрифт для верхнего навигационного меню"
+
+#: ../udesign_options_page.php:1674
+msgid "Title Headings Font Settings"
+msgstr "Шрифт для названия заголовков"
+
+#: ../udesign_options_page.php:1676
+msgid ""
+"This font is applied to all h1, h2, h3, h4, h5, h6 - Headings (with small "
+"exceptions) and  the Slogan (Tagline):"
+msgstr ""
+"Шрифт применяется для h1, h2, h3, h4, h5, h6 - тэгов (с небольшими "
+"исключениями) и слогану:"
+
+#: ../udesign_options_page.php:1707
+msgid "Font Size Coefficient: "
+msgstr "Размер шрифта (em):"
+
+#: ../udesign_options_page.php:1725
+msgid ""
+"The Font Size Coefficient is multiplied by the actual heading size in \"em"
+"\", thus any coefficient greater than \"1.0\" will cause the font size to "
+"inclease and any coefficient less than \"1.0 will produce smaller font size."
+msgstr ""
+"Коэффициент размера шрифта помножен на действующий размер заголовков в \"em"
+"\", таким образом любой коэффициент больше \"1.0\", увеличит размер шрифта, "
+"а коэффициент меньше \"1.0\" уменьшит размер шрифта."
+
+#: ../udesign_options_page.php:1737
+msgid "Custom Colors Switch"
+msgstr "Смена цветовой схемы"
+
+#: ../udesign_options_page.php:1739
+msgid "If enabled this option will overwrite the default CSS styles."
+msgstr "Если включить эту опцию, то будут перезаписаны стили по умолчанию"
+
+#: ../udesign_options_page.php:1740
+msgid "Custom colors option:"
+msgstr "Выбрать настройки цвета:"
+
+#: ../udesign_options_page.php:1741
+msgid "Enable"
+msgstr "Включить"
+
+#: ../udesign_options_page.php:1742
+msgid "Disable"
+msgstr "Отключить"
+
+#: ../udesign_options_page.php:1749
+msgid "Continue with the section below to customize the colors..."
+msgstr "Настройте цвета ниже..."
+
+#: ../udesign_options_page.php:1759
+msgid "General Text and Link Colors:"
+msgstr "Цвет основного текста и ссылок:"
+
+#: ../udesign_options_page.php:1763
+msgid "Body Text Color"
+msgstr "Текст страницы (body)"
+
+#: ../udesign_options_page.php:1771
+msgid "Main body text color affecting the entire site."
+msgstr "Применяется ко всему основному тексту сайта"
+
+#: ../udesign_options_page.php:1775
+msgid "Link Color"
+msgstr "Цвет ссылок"
+
+#: ../udesign_options_page.php:1783
+msgid "Main link color affecting the entire site."
+msgstr "Применяется ко всем основным ссылкам сайты"
+
+#: ../udesign_options_page.php:1787
+msgid "Link Hover Color"
+msgstr "Цвет ссылок при наведении"
+
+#: ../udesign_options_page.php:1795
+msgid "This is the link hover color."
+msgstr "Цвет ссылок при наведении"
+
+#: ../udesign_options_page.php:1799
+msgid "Headings Color"
+msgstr "Цвет заголовков"
+
+#: ../udesign_options_page.php:1807
+msgid ""
+"This is the color for general H1, H2, H3, H4 ,H5 ,H6 Headings where "
+"applicable."
+msgstr ""
+"Цвет для основных заголовков H1, H2, H3, H4 ,H5 ,H6 (везде, где применимо)."
+
+#: ../udesign_options_page.php:1812
+msgid "Top Section Colors:"
+msgstr "Цвета верхней части сайта:"
+
+#: ../udesign_options_page.php:1816
+msgid "Top Area Background"
+msgstr "Фон верхней части сайта"
+
+#: ../udesign_options_page.php:1824
+#, fuzzy
+msgid ""
+"Site's top section background color. This is the section with the logo, "
+"logan, phone number and search box, immediately above the menu."
+msgstr ""
+"Цвет фона верхней части сайта. Это область с логотипом, слоганом, телефонным "
+"номером и поиском - выше меню."
+
+#: ../udesign_options_page.php:1832
+msgid "Top Area Text Color"
+msgstr "Цвет текста верхней части сайта"
+
+#: ../udesign_options_page.php:1840
+msgid "This color affects the slogan, phone number and search text."
+msgstr "Цвет слогана, телефонного номера и текста в поле для поиска."
+
+#: ../udesign_options_page.php:1844
+msgid "Top Menu Link Color"
+msgstr "Цвет ссылок меню верхней части сайта"
+
+#: ../udesign_options_page.php:1852
+msgid "This is the color of the main menu links."
+msgstr "Цвет ссылок основного меню."
+
+#: ../udesign_options_page.php:1856
+msgid "Top Menu Active Link Color"
+msgstr "Цвет активных ссылок меню верхней части сайта"
+
+#: ../udesign_options_page.php:1864
+msgid "This is the color of the main menu active/selected link."
+msgstr "Цвет активных/выбранных ссылок основного меню."
+
+#: ../udesign_options_page.php:1868
+msgid "Top Menu Hover Link Color"
+msgstr "Цвет ссылок меню верхней части сайта при наведении"
+
+#: ../udesign_options_page.php:1876
+msgid "This is the color of the main menu hover link."
+msgstr "Цвет ссылок основного меню сайта при наведении."
+
+#: ../udesign_options_page.php:1881
+msgid "Midsection Colors:"
+msgstr "Цвета средней части сайта:"
+
+#: ../udesign_options_page.php:1885
+msgid "Page Title Color"
+msgstr "Цвета названия страниц"
+
+#: ../udesign_options_page.php:1893
+msgid ""
+"This is the color for the title of pages/posts/archives, etc. located in the "
+"area underneath the menu."
+msgstr ""
+"Цвета для названия страниц/записей/архивов и т.д. разположенных под меню."
+
+#: ../udesign_options_page.php:1897
+msgid "Page Title Background Color"
+msgstr "Цвет фона названия страниц"
+
+#: ../udesign_options_page.php:1905
+msgid "This is the background color behind the page titles."
+msgstr "Цвет фона позади названий страницы."
+
+#: ../udesign_options_page.php:1909
+msgid "Header/Slider Background"
+msgstr "Фон заголовка/слайдера"
+
+#: ../udesign_options_page.php:1917
+msgid "This is the background color behind the home page sliders."
+msgstr "Цвет фона позади слайдера на главной странице."
+
+#: ../udesign_options_page.php:1921
+msgid "Main Content Area Background"
+msgstr "Фон области основного содержания"
+
+#: ../udesign_options_page.php:1929
+msgid "This is the color of the main content wrapper background."
+msgstr "Цвет фона окружающего основной контент сайта."
+
+#: ../udesign_options_page.php:1934
+msgid "Home Page Before Content Widget Area Colors:"
+msgstr "Цвета главной страницы до содержимого области виджетов:"
+
+#: ../udesign_options_page.php:1938
+msgid "Title Color"
+msgstr "Цвет заголовка"
+
+#: ../udesign_options_page.php:1946
+msgid ""
+"This is the color for the title of widgets used in this Widget Area, usually "
+"an \"H3\" Headings."
+msgstr ""
+"Цвет для названия виджета, используемого в области вижета. Обычно как "
+"заголовок  \"H3\"."
+
+#: ../udesign_options_page.php:1950 ../udesign_options_page.php:4208
+#: ../udesign_options_page.php:4492
+msgid "Text Color"
+msgstr "Цвет текста"
+
+#: ../udesign_options_page.php:1958
+msgid "This is the default text color applied to this Widget Area."
+msgstr "Цвет текста применяемый для области виджета по умолчанию."
+
+#: ../udesign_options_page.php:1962
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: ../udesign_options_page.php:1970
+msgid "This is the background color."
+msgstr "Цвет фона."
+
+#: ../udesign_options_page.php:1975
+msgid "Bottom Area Colors:"
+msgstr "Цвета нижней части сайта:"
+
+#: ../udesign_options_page.php:1979
+msgid "Bottom Background Color"
+msgstr "Цвет фона нижней части сайта"
+
+#: ../udesign_options_page.php:1987
+msgid "This is the background color for the bottom area."
+msgstr "Цвет фона нижней части сайта"
+
+#: ../udesign_options_page.php:1991
+msgid "Bottom Titles Color"
+msgstr "Цвет заголовка в нижней части сайта"
+
+#: ../udesign_options_page.php:1999
+msgid "This is the color applied to the bottom area widget titles."
+msgstr "Цвет заголовка в области виджета  нижней части сайта"
+
+#: ../udesign_options_page.php:2003
+msgid "Bottom Text Color"
+msgstr "Цвет текста нижней части сайта"
+
+#: ../udesign_options_page.php:2011
+msgid "This is the default text color applied to the bottom area."
+msgstr "Цвет текста нижней части сайта, используемый по умолчанию"
+
+#: ../udesign_options_page.php:2015
+msgid "Bottom Link Color"
+msgstr "Цвет ссылок нижней части сайта"
+
+#: ../udesign_options_page.php:2023
+msgid "This is the bottom area link color."
+msgstr "Цвет ссылок нижней части сайта"
+
+#: ../udesign_options_page.php:2027
+msgid "Bottom Link Hover Color"
+msgstr "Цвет ссылок нижней части сайта при наведении"
+
+#: ../udesign_options_page.php:2035
+msgid "This is the bottom area link hover color."
+msgstr "Цвет ссылок нижней части сайта при наведении."
+
+#: ../udesign_options_page.php:2040
+msgid "Footer Area Colors:"
+msgstr "Цвета, используемые в футере сайта"
+
+#: ../udesign_options_page.php:2044
+msgid "Footer Background Color"
+msgstr "Цвет фона футера"
+
+#: ../udesign_options_page.php:2052
+msgid "This is the footer background color."
+msgstr "Цвет фона футера"
+
+#: ../udesign_options_page.php:2056
+msgid "Footer Text Color"
+msgstr "Цвет текста  футера"
+
+#: ../udesign_options_page.php:2064
+msgid "This is the footer general text color."
+msgstr "Цвет основного текста футера"
+
+#: ../udesign_options_page.php:2068
+msgid "Footer Link Color"
+msgstr "Цвет ссылок футера"
+
+#: ../udesign_options_page.php:2076
+msgid "This is the footer link color."
+msgstr "Цвет ссылок футера"
+
+#: ../udesign_options_page.php:2080
+msgid "Footer Link Hover Color"
+msgstr "Цвет ссылок футера при наведении"
+
+#: ../udesign_options_page.php:2088
+msgid "This is the footer link hover color."
+msgstr "Цвет ссылок футера при наведении."
+
+#: ../udesign_options_page.php:2097
+msgid "Background Images:"
+msgstr "Фоновые изображения:"
+
+#: ../udesign_options_page.php:2098
+msgid ""
+"Tip: To upload an image click on 'Upload Image' button below. Once the image "
+"is uploaded it will give you various options. Click on 'Insert into Post' "
+"button. Once you click on 'Insert into Post', link with the uploaded image "
+"will be inserted into the corresponding text field below. The background "
+"image is placed according to the background-position property. If 'No "
+"Repeat' is specified (see below), the image is placed at the element's top "
+"center possition."
+msgstr ""
+"Совет: Чтобы загрузить изображение нажимите на кнопку 'Загрузить "
+"изображение' ниже. Как только изображение загружено, у вас появятся "
+"дополнительные опции настройки. Если Вы нажмете на кнопку 'Вставить в "
+"запись', ссылка на загруженное изображение будет вставлена в соответствующую "
+"текстовую область ниже. Фоновое изображение размещается в соответствии со "
+"свойстом  background-position. Если не включена опция 'Не повторять' (см. "
+"ниже), то изображение размещается сверху по центру."
+
+#: ../udesign_options_page.php:2102
+msgid "Top Background Image"
+msgstr "Верхнее фоновое изображение"
+
+#: ../udesign_options_page.php:2105 ../udesign_options_page.php:2141
+#: ../udesign_options_page.php:2177 ../udesign_options_page.php:2213
+#: ../udesign_options_page.php:2249 ../udesign_options_page.php:2285
+#: ../udesign_options_page.php:2321 ../udesign_options_page.php:2357
+#: ../udesign_options_page.php:3962 ../udesign_options_page.php:4030
+msgid "Enter a URL or upload an image:"
+msgstr "Введите URL или загрузите изображение:"
+
+#: ../udesign_options_page.php:2107 ../udesign_options_page.php:2143
+#: ../udesign_options_page.php:2179 ../udesign_options_page.php:2215
+#: ../udesign_options_page.php:2251 ../udesign_options_page.php:2287
+#: ../udesign_options_page.php:2323 ../udesign_options_page.php:2359
+#: ../udesign_options_page.php:2611 ../udesign_options_page.php:2663
+#: ../udesign_options_page.php:2929 ../udesign_options_page.php:2956
+#: ../udesign_options_page.php:3474 ../udesign_options_page.php:3506
+#: ../udesign_options_page.php:3525 ../udesign_options_page.php:3574
+#: ../udesign_options_page.php:3618 ../udesign_options_page.php:3649
+#: ../udesign_options_page.php:3964 ../udesign_options_page.php:4032
+#: ../udesign_options_page.php:4237 ../udesign_options_page.php:4320
+#: ../udesign_options_page.php:4521 ../udesign_options_page.php:4545
+#: ../udesign_options_page.php:4570 ../udesign_options_page.php:4594
+msgid "Upload Image"
+msgstr "Загрузить изображение"
+
+#: ../udesign_options_page.php:2111 ../udesign_options_page.php:2147
+#: ../udesign_options_page.php:2183 ../udesign_options_page.php:2219
+msgid "Background  Properties:"
+msgstr "Свойства фона:"
+
+#: ../udesign_options_page.php:2113 ../udesign_options_page.php:2149
+#: ../udesign_options_page.php:2185 ../udesign_options_page.php:2221
+#: ../udesign_options_page.php:2257 ../udesign_options_page.php:2293
+#: ../udesign_options_page.php:2329 ../udesign_options_page.php:2365
+msgid "No Repeat"
+msgstr "Не повторять"
+
+#: ../udesign_options_page.php:2114 ../udesign_options_page.php:2150
+#: ../udesign_options_page.php:2186 ../udesign_options_page.php:2222
+#: ../udesign_options_page.php:2258 ../udesign_options_page.php:2294
+#: ../udesign_options_page.php:2330 ../udesign_options_page.php:2366
+msgid "Repeat only Horizontally"
+msgstr "Повторять только по горизонтали"
+
+#: ../udesign_options_page.php:2115 ../udesign_options_page.php:2151
+#: ../udesign_options_page.php:2187 ../udesign_options_page.php:2223
+#: ../udesign_options_page.php:2259 ../udesign_options_page.php:2295
+#: ../udesign_options_page.php:2331 ../udesign_options_page.php:2367
+msgid "Repeat only Vertically"
+msgstr "Повторять только по вертикали"
+
+#: ../udesign_options_page.php:2116 ../udesign_options_page.php:2152
+#: ../udesign_options_page.php:2188 ../udesign_options_page.php:2224
+#: ../udesign_options_page.php:2260 ../udesign_options_page.php:2296
+#: ../udesign_options_page.php:2332 ../udesign_options_page.php:2368
+msgid "Repeat both Vertically and Horizontally"
+msgstr "Повторять по горизонтали и вертикали"
+
+#: ../udesign_options_page.php:2118 ../udesign_options_page.php:2154
+#: ../udesign_options_page.php:2190 ../udesign_options_page.php:2226
+#: ../udesign_options_page.php:2262 ../udesign_options_page.php:2298
+#: ../udesign_options_page.php:2334 ../udesign_options_page.php:2370
+msgid "Horizontal:"
+msgstr "По горизонтали:"
+
+#: ../udesign_options_page.php:2120 ../udesign_options_page.php:2127
+#: ../udesign_options_page.php:2156 ../udesign_options_page.php:2163
+#: ../udesign_options_page.php:2192 ../udesign_options_page.php:2199
+#: ../udesign_options_page.php:2228 ../udesign_options_page.php:2235
+#: ../udesign_options_page.php:2264 ../udesign_options_page.php:2271
+#: ../udesign_options_page.php:2300 ../udesign_options_page.php:2307
+#: ../udesign_options_page.php:2336 ../udesign_options_page.php:2343
+#: ../udesign_options_page.php:2372 ../udesign_options_page.php:2379
+#: ../udesign_options_page.php:3276
+msgid "center"
+msgstr "центр"
+
+#: ../udesign_options_page.php:2121 ../udesign_options_page.php:2157
+#: ../udesign_options_page.php:2193 ../udesign_options_page.php:2229
+#: ../udesign_options_page.php:2265 ../udesign_options_page.php:2301
+#: ../udesign_options_page.php:2337 ../udesign_options_page.php:2373
+#: ../udesign_options_page.php:3277
+msgid "left"
+msgstr "лево"
+
+#: ../udesign_options_page.php:2122 ../udesign_options_page.php:2158
+#: ../udesign_options_page.php:2194 ../udesign_options_page.php:2230
+#: ../udesign_options_page.php:2266 ../udesign_options_page.php:2302
+#: ../udesign_options_page.php:2338 ../udesign_options_page.php:2374
+#: ../udesign_options_page.php:3278
+msgid "right"
+msgstr "право"
+
+#: ../udesign_options_page.php:2124 ../udesign_options_page.php:2160
+#: ../udesign_options_page.php:2196 ../udesign_options_page.php:2232
+#: ../udesign_options_page.php:2268 ../udesign_options_page.php:2304
+#: ../udesign_options_page.php:2340 ../udesign_options_page.php:2376
+msgid "Vertical:"
+msgstr "По вертикали:"
+
+#: ../udesign_options_page.php:2126 ../udesign_options_page.php:2162
+#: ../udesign_options_page.php:2198 ../udesign_options_page.php:2234
+#: ../udesign_options_page.php:2270 ../udesign_options_page.php:2306
+#: ../udesign_options_page.php:2342 ../udesign_options_page.php:2378
+msgid "top"
+msgstr "верх"
+
+#: ../udesign_options_page.php:2128 ../udesign_options_page.php:2164
+#: ../udesign_options_page.php:2200 ../udesign_options_page.php:2236
+#: ../udesign_options_page.php:2272 ../udesign_options_page.php:2308
+#: ../udesign_options_page.php:2344 ../udesign_options_page.php:2380
+msgid "bottom"
+msgstr "низ"
+
+#: ../udesign_options_page.php:2138
+#, fuzzy
+msgid "Home Page Header/Slider Background Image"
+msgstr "Фоновое изображение верхней части сайта на домашней странице"
+
+#: ../udesign_options_page.php:2174
+msgid "Home Page Before Content Background Image"
+msgstr "Фоновое изображение до контента на домашней странице"
+
+#: ../udesign_options_page.php:2210
+msgid "Page Title Background Image"
+msgstr "Фоновое изображение названия страниц"
+
+#: ../udesign_options_page.php:2246
+msgid "Main Content Background Image"
+msgstr "Фоновое изображение основного содержания сайта"
+
+#: ../udesign_options_page.php:2255 ../udesign_options_page.php:2291
+#: ../udesign_options_page.php:2327 ../udesign_options_page.php:2363
+msgid "Background Properties:"
+msgstr "Свойства фона:"
+
+#: ../udesign_options_page.php:2282
+msgid "Bottom Area Background Image"
+msgstr "Фоновое изображение нижней части сайта"
+
+#: ../udesign_options_page.php:2318
+msgid "Footer Background Image"
+msgstr "Фоновое изображение футера"
+
+#: ../udesign_options_page.php:2354
+msgid "One Continuous Background Image That Will Span Across All Sections"
+msgstr ""
+"Одно повторяющееся фоновое изображение, которое будет использоваться по всех "
+"разделах"
+
+#: ../udesign_options_page.php:2384
+#, php-format
+msgid "For Background color  %1$sTop Area Background %2$s%3$s  will be used."
+msgstr "Будет использоваться для цвета  %1$sФона верхней части сайта %2$s%3$s."
+
+#: ../udesign_options_page.php:2386
+msgid "Fixed Position"
+msgstr "Фиксированное расположение"
+
+#: ../udesign_options_page.php:2389
+msgid "Fix the position of the background image so that it is not scrollable."
+msgstr ""
+"Фиксированное расположение фонового изображения, которое не будет меняться "
+"при пролистывании страниц."
+
+#: ../udesign_options_page.php:2392
+msgid "Allow Other Sections' Images"
+msgstr "Разрешить изображения в других разделах"
+
+#: ../udesign_options_page.php:2395
+msgid ""
+"Enable background images from other sections to show as well, you can "
+"achieve sort of layered layout."
+msgstr ""
+"Включить фоновые изображения из других разделов. You can achieve sort of "
+"layered layout."
+
+#: ../udesign_options_page.php:2399
+#, php-format
+msgid ""
+"Note: If you wish to remove the border line under the top navigation menu, "
+"the option for that is located under: %1$s General Options %2$s Border Under "
+"the Menu %3$s"
+msgstr ""
+"Обратите внимание: Если вы хотите удалить линию границы под основным "
+"навигационным меню, то перейдите в  %1$sОсновные настройки %2$s Граница под "
+"меню %3$s"
+
+#: ../udesign_options_page.php:2409
+msgid "Administrative Tasks:"
+msgstr "Административные настройки:"
+
+#: ../udesign_options_page.php:2412
+msgid "Save the current custom colors."
+msgstr "Сохранить выбранные настройки цветов."
+
+#: ../udesign_options_page.php:2414
+msgid ""
+"A Color Scheme will be saved with an automatic name generated from the "
+"current time stamp. Once saved you will be able to choose it from the "
+"dropdown below and load it at a later time."
+msgstr ""
+"Цветовая схема будет сохранена с автоматически сгенерированным именем и "
+"пометкой о текущем времени. После того как вы ее сохраните, вы сможете "
+"выбрать эти стили в выпадающем меню ниже или загрузить их позже."
+
+#: ../udesign_options_page.php:2417
+msgid "Save"
+msgstr "Сохранить"
+
+#: ../udesign_options_page.php:2422
+msgid ""
+"Choose a custom color scheme from the first dropdown below and then choose a "
+"task to perform from the second dropdown, then hit the \"Update\" button."
+msgstr ""
+"Выберите цветовую схему из выпадающего списка ниже, затем во втором меню "
+"выберите действие, которое хотите совершить, после этого нажмите кнопку "
+"\"Обновить\"."
+
+#: ../udesign_options_page.php:2437
+msgid "Note: The \"Default Colors\" cannot be deleted."
+msgstr "Обратите внимание: Схема \"Default Colors\" не может быть удалена."
+
+#: ../udesign_options_page.php:2456
+msgid "Current Slider"
+msgstr "Текущий слайдер"
+
+#: ../udesign_options_page.php:2458
+msgid "Choose a slider:"
+msgstr "Выбрать слайдер:"
+
+#: ../udesign_options_page.php:2461
+msgid "Flashmo Grid Slider"
+msgstr ""
+
+#: ../udesign_options_page.php:2462
+#, fuzzy
+msgid "Piecemaker"
+msgstr "Piecemaker 2 Слайдер:"
+
+#: ../udesign_options_page.php:2463
+#, fuzzy
+msgid "Piecemaker 2"
+msgstr "Piecemaker 2 Слайдер:"
+
+#: ../udesign_options_page.php:2464
+#, fuzzy
+msgid "Cycle 1 (full width image)"
+msgstr "4. Cycle 1 (изображение во всю ширину)"
+
+#: ../udesign_options_page.php:2465
+#, fuzzy
+msgid "Cycle 2 (image with text)"
+msgstr "5. Cycle 2 (изображение с текстом)"
+
+#: ../udesign_options_page.php:2466
+#, fuzzy
+msgid "Cycle 3 (image with sliding text)"
+msgstr "6. Cycle 3 (изображение со скользящим текстом)"
+
+#: ../udesign_options_page.php:2467 ../udesign_options_page.php:4654
+#, fuzzy
+msgid "Revolution Slider"
+msgstr "7. Без слайдера"
+
+#: ../udesign_options_page.php:2468
+#, fuzzy
+msgid "No Slider"
+msgstr "7. Без слайдера"
+
+#: ../udesign_options_page.php:2473
+msgid "Save & Activate"
+msgstr "Сохранить и применить"
+
+#: ../udesign_options_page.php:2476
+msgid "Continue with the section below to customize the slider..."
+msgstr "Ниже выберите настройки для Вашего слайдера..."
+
+#: ../udesign_options_page.php:2510
+msgid "Flashmo Grid Slider Settings:"
+msgstr ""
+
+#: ../udesign_options_page.php:2514 ../udesign_options_page.php:2754
+#: ../udesign_options_page.php:3012 ../udesign_options_page.php:4952
+msgid "Image Width"
+msgstr "Ширина изображения"
+
+#: ../udesign_options_page.php:2517
+msgid "The width in pixels of the slider images (940 recommended)."
+msgstr "Ширина изображения слайдера в пикселях (рекомендуется 940)."
+
+#: ../udesign_options_page.php:2521 ../udesign_options_page.php:2761
+#: ../udesign_options_page.php:3019 ../udesign_options_page.php:4959
+msgid "Image Height"
+msgstr "Высота изображения"
+
+#: ../udesign_options_page.php:2524
+msgid "The height in pixels of the slider images (400 recommended)."
+msgstr "Высота изображения слайдера в пикселях (рекомендуется 400)."
+
+#: ../udesign_options_page.php:2528
+msgid "Auto Play"
+msgstr "Авто проигрывание"
+
+#: ../udesign_options_page.php:2531
+msgid "True"
+msgstr "Включить"
+
+#: ../udesign_options_page.php:2532
+msgid "False"
+msgstr "Отключить"
+
+#: ../udesign_options_page.php:2534
+msgid "Set the auto play option, true by default ( or false )."
+msgstr ""
+"Установить опцию авто запуска. По умолчанию \"Включить\" (или \"Отключить\")"
+
+#: ../udesign_options_page.php:2538
+msgid "Auto Play Duration"
+msgstr "Продолжительность авто проигрывания"
+
+#: ../udesign_options_page.php:2541
+msgid ""
+"Number of seconds between transitions, 2.4 seconds by default ( or any "
+"number of seconds )."
+msgstr ""
+"Количество секунд между переходами, 2.4 секунды по умолчанию (может быть "
+"любое количество)."
+
+#: ../udesign_options_page.php:2545
+msgid "Number of Rows"
+msgstr "Количество рядов"
+
+#: ../udesign_options_page.php:2548
+msgid ""
+"Number of rows, in which the images will be sliced, 4 rows by default ( or "
+"any number of rows )"
+msgstr ""
+"Количество рядов, на которее будет порезано изображение, 4 ряда по умолчанию "
+"(может быть любое количество)"
+
+#: ../udesign_options_page.php:2552
+msgid "Number of Columns"
+msgstr "Соличество колонок"
+
+#: ../udesign_options_page.php:2555
+msgid ""
+"Number of columns, in which the images will be sliced, 6 columns by default "
+"( or any number of columns )"
+msgstr ""
+"Количество колонок, на которее будет порезано изображение, 6 колонок по "
+"умолчанию (может быть любое количество)"
+
+#: ../udesign_options_page.php:2559
+msgid "Tween Duration"
+msgstr "Продолжительность движения"
+
+#: ../udesign_options_page.php:2562
+msgid ""
+"Duration in seconds of the motion tween for each block in the transition."
+msgstr ""
+"Продолжительность анимации движения в секундах для каждого переключаемого "
+"блока."
+
+#: ../udesign_options_page.php:2566 ../udesign_options_page.php:2782
+msgid "Tween Delay"
+msgstr "Задержка движения"
+
+#: ../udesign_options_page.php:2569
+msgid "Delay in seconds between each block in the transition."
+msgstr "Задержка в секундах между каждым переключаемым блоком."
+
+#: ../udesign_options_page.php:2573
+msgid "Bar Status"
+msgstr "Статусная строка"
+
+#: ../udesign_options_page.php:2576
+msgid "Hide the Bar"
+msgstr "Скрыть строку"
+
+#: ../udesign_options_page.php:2577
+msgid "Show the Bar"
+msgstr "Показать строку"
+
+#: ../udesign_options_page.php:2578
+msgid "Show the Bar and Photo Description"
+msgstr "Показать строку и фотоописание"
+
+#: ../udesign_options_page.php:2580
+msgid "This is the area in the slider displaying additional controls and text."
+msgstr ""
+"Область слайдера, в которой отображаются дополнительные настройки и текст."
+
+#: ../udesign_options_page.php:2584 ../udesign_options_page.php:2586
+#: ../udesign_options_page.php:2873 ../udesign_options_page.php:2875
+#: ../udesign_options_page.php:3937 ../udesign_options_page.php:3939
+msgid "3D Shadow"
+msgstr "3D тень"
+
+#: ../udesign_options_page.php:2589 ../udesign_options_page.php:2878
+#: ../udesign_options_page.php:3942
+msgid "Remove the 3D shadow under the slider"
+msgstr "Убрать 3D тень под слайдером"
+
+#: ../udesign_options_page.php:2609 ../udesign_options_page.php:2661
+#: ../udesign_options_page.php:2927 ../udesign_options_page.php:2954
+#: ../udesign_options_page.php:3472 ../udesign_options_page.php:3504
+#: ../udesign_options_page.php:3523 ../udesign_options_page.php:3572
+#: ../udesign_options_page.php:3616 ../udesign_options_page.php:3647
+#: ../udesign_options_page.php:4235 ../udesign_options_page.php:4318
+#: ../udesign_options_page.php:4519 ../udesign_options_page.php:4568
+msgid "Image:"
+msgstr "Изображение:"
+
+#: ../udesign_options_page.php:2615 ../udesign_options_page.php:2667
+msgid "Flow:"
+msgstr ""
+
+#: ../udesign_options_page.php:2622 ../udesign_options_page.php:2674
+msgid "Direction:"
+msgstr "Направление:"
+
+#: ../udesign_options_page.php:2632 ../udesign_options_page.php:2684
+msgid "Rotation:"
+msgstr "Поворот:"
+
+#: ../udesign_options_page.php:2642 ../udesign_options_page.php:2694
+#: ../udesign_options_page.php:3494 ../udesign_options_page.php:3594
+#: ../udesign_options_page.php:4289 ../udesign_options_page.php:4372
+#: ../udesign_options_page.php:4550 ../udesign_options_page.php:4599
+msgid "Slide text"
+msgstr "Текст слайда"
+
+#: ../udesign_options_page.php:2646 ../udesign_options_page.php:2698
+msgid ""
+"This textfield supports HTML and CSS. The CSS classes used are located in "
+"\"sliders/flashmo/grid_slider/flashmo_224_style.css\""
+msgstr ""
+"Это текстовое поле поддерживает HTML и CSS. Используются классы CSS "
+"расположенне в \"sliders/flashmo/grid_slider/flashmo_224_style.css \""
+
+#: ../udesign_options_page.php:2708 ../udesign_options_page.php:2975
+#: ../udesign_options_page.php:3869
+msgid "No JavaScript image"
+msgstr "Нет изображений JavaScript"
+
+#: ../udesign_options_page.php:2710 ../udesign_options_page.php:2977
+#: ../udesign_options_page.php:3871
+msgid "Paste the full path to your image:"
+msgstr "Укажите полностью путь к Вашему изображению:"
+
+#: ../udesign_options_page.php:2712
+msgid ""
+"In the case when JavaScript is disabled the 1st slider image is displayed by "
+"default in place of the Flashmo slider, you may change that in here"
+msgstr ""
+"Когда JavaScript отключен, вместо слайдера Flashmo, показывается 1-ое "
+"изображение слайда. Вы можете изменить это здесь"
+
+#: ../udesign_options_page.php:2750
+msgid "Piecemaker Slider Settings:"
+msgstr "Настройки Piecemaker слайдера:"
+
+#: ../udesign_options_page.php:2757
+msgid "The width of the images to be loaded."
+msgstr "Ширина загружаемого изображения."
+
+#: ../udesign_options_page.php:2764
+msgid "The height of the images to be loaded."
+msgstr "Высота загружаемого изображения."
+
+#: ../udesign_options_page.php:2768
+msgid "Number of segments"
+msgstr "Количество частей"
+
+#: ../udesign_options_page.php:2771
+msgid "Number of segments, in which the images will be sliced."
+msgstr "Количество частей, на которые будет порезано изображение."
+
+#: ../udesign_options_page.php:2775
+msgid "Tween Time"
+msgstr "Время движения"
+
+#: ../udesign_options_page.php:2778
+msgid "Number of seconds for each element to be turned."
+msgstr "Количество секунд для поворота каждого элемента"
+
+#: ../udesign_options_page.php:2785
+msgid ""
+"Number of seconds from one element starting to turn to the next element "
+"starting."
+msgstr ""
+"Количество секунд от начала поворота первого элемента до начала поворота "
+"второго."
+
+#: ../udesign_options_page.php:2789
+msgid "Tween Type"
+msgstr "Тип движения"
+
+#: ../udesign_options_page.php:2834
+#, php-format
+msgid ""
+"Type of transition from Caurina&#39;s Tweener class. Find all possible "
+"transition types and more information about Tweener in the official "
+"%1$sdocumentation%2$s."
+msgstr ""
+"Тип перехода от Caurina&#39;s Tweener класса. Все возможные способы поворота "
+"и больше информации о Tweener в официальной %1$sдокументации%2$s."
+
+#: ../udesign_options_page.php:2838
+msgid "Z Distance"
+msgstr "Z расстояние"
+
+#: ../udesign_options_page.php:2841
+#, fuzzy
+msgid ""
+"To which extent are the cubes moved on z axis when being tweened. Negative "
+"values bring the cube closer to the camera, positive values take it further "
+"away. A good range is roughly between -200 and 700."
+msgstr ""
+"Расстояние, на которое смещаются кубики по оси Z при повороте. Отрицательная "
+"величина приближают кубики к камере, положительная - отодвигает дальше. "
+"Лучшее расстояние от -200 до 700"
+
+#: ../udesign_options_page.php:2845
+msgid "Expand"
+msgstr "Растянуть"
+
+#: ../udesign_options_page.php:2848
+#, fuzzy
+msgid "To which extent are the cubes moved away from each other when tweening."
+msgstr "Расстояние, на которое кубики отодвигаются друг от друга при движении."
+
+#: ../udesign_options_page.php:2852
+msgid "Shadow Darkness"
+msgstr "Интенсивность тени"
+
+#: ../udesign_options_page.php:2855
+#, fuzzy
+msgid ""
+"To which extent are the sides shadowed, when the elements are tweening and "
+"the sided move towards the background. 100 is black, 0 is no darkening."
+msgstr ""
+"Определяет степень интенсивности тени при движении элементов и приближении к "
+"фону. 100 - черное, 0 - не затемненное."
+
+#: ../udesign_options_page.php:2859 ../udesign_options_page.php:3060
+msgid "Autoplay"
+msgstr "Авто воспроизведение"
+
+#: ../udesign_options_page.php:2862
+msgid "Number of seconds to the next image."
+msgstr "Колечество секунд до следующего изображения"
+
+#: ../udesign_options_page.php:2866
+msgid "Text Distance"
+msgstr "Расстояние текста"
+
+#: ../udesign_options_page.php:2869
+msgid "Distance of the info text to the borders of its background."
+msgstr "Расстояние информационного текста до границ его фона."
+
+#: ../udesign_options_page.php:2889
+msgid "Text Background"
+msgstr "Фон текста"
+
+#: ../udesign_options_page.php:2897
+msgid "Description text background"
+msgstr "Фон для текста с описанием"
+
+#: ../udesign_options_page.php:2901
+msgid "Inner Color"
+msgstr "Внутренний цвет"
+
+#: ../udesign_options_page.php:2909
+msgid "Sides color of the sliced elements"
+msgstr "Цвет боковой части разрезанного элемента"
+
+#: ../udesign_options_page.php:2935 ../udesign_options_page.php:2961
+msgid "Edit the info text, erase all for none:"
+msgstr "Редактировать информационный текст, сотрите все для пустого поля:"
+
+#: ../udesign_options_page.php:2939 ../udesign_options_page.php:2965
+msgid "Study the above text for slider's specific syntax"
+msgstr "Изучите верхний текст для определения свойств слайдера"
+
+#: ../udesign_options_page.php:2979
+msgid ""
+"In the case when JavaScript is disabled the 1st slider image is displayed by "
+"default in place of the Piecemaker slider, you may change that in here"
+msgstr ""
+"Когда JavaScript отключен, вместо слайдера Piecemaker, показывается 1-ое "
+"изображение слайда. Вы можете изменить это здесь"
+
+#: ../udesign_options_page.php:3005
+msgid "Piecemaker 2 Slider Settings:"
+msgstr "Настройки слайдера Piecemaker 2:"
+
+#: ../udesign_options_page.php:3008
+msgid "General Settings:"
+msgstr "Общие настройки:"
+
+#: ../udesign_options_page.php:3015
+msgid "The width of every image."
+msgstr "Ширина каждой картинки."
+
+#: ../udesign_options_page.php:3022
+msgid "The height of every image."
+msgstr "Высота каждой картинки."
+
+#: ../udesign_options_page.php:3031
+msgid "Loader Color"
+msgstr "Цвет при загрузке"
+
+#: ../udesign_options_page.php:3039
+msgid ""
+"Color of the cubes before the first image appears, also the color of the "
+"back sides of the cube, which become visible at some transition types."
+msgstr ""
+"Цвет кубиков до появления первого изображения. А также цвет обратных сторон "
+"кубика, которые становятся видимыми при некоторых способах переключения."
+
+#: ../udesign_options_page.php:3043
+msgid "Inner Side Color"
+msgstr "Цвет внутренней стороны"
+
+#: ../udesign_options_page.php:3051
+msgid "Color of the inner sides of the cube when sliced"
+msgstr "Цвет внутренней стороны порезанного кубика"
+
+#: ../udesign_options_page.php:3063
+msgid ""
+"Number of seconds from one transition to another, if not stopped. Set to 0 "
+"to disable autoplay."
+msgstr ""
+"Количество секунд от одного переключения к другому (если не остановлено). "
+"Установите 0 для авто проигрывания."
+
+#: ../udesign_options_page.php:3067
+msgid "Field of View"
+msgstr "Поле обзора"
+
+#: ../udesign_options_page.php:3070
+#, php-format
+msgid ""
+"The display of the slide object moving down the z axis (1 to 179). It "
+"appears to change size quickly and moves a great distance. %1$sMore info%2$s"
+msgstr ""
+"Показывает движение объекта смещающегося вниз по оси z (от 1 до 179). "
+"Показывается быстрое изменение размера и перемещение на большое расстояние. "
+"%1$sMore info%2$s"
+
+#: ../udesign_options_page.php:3078
+msgid "Shadows:"
+msgstr "Тени:"
+
+#: ../udesign_options_page.php:3082
+msgid "Side Shadow Alpha"
+msgstr "Боковая тень Альфа"
+
+#: ../udesign_options_page.php:3085
+#, php-format
+msgid ""
+"Sides get darker when moved away from the front. This is the degree of "
+"darkness 0 = no change, 1 = 100%s black."
+msgstr ""
+"Сторона становится темнее, когда перемещается в сторону от передней части. "
+"Степень темноты: 0 = нет изменений; 1 = 100%s черный."
+
+#: ../udesign_options_page.php:3089
+msgid "Drop Shadow Alpha"
+msgstr "Падающая тень Альфа"
+
+#: ../udesign_options_page.php:3092
+msgid "Alpha of the drop shadow 0 = no shadow, 1 = opaque."
+msgstr "Alpha падающей тени: 0 = нет тени, 1 = непрозрачная."
+
+#: ../udesign_options_page.php:3096
+msgid "Drop Shadow Distance"
+msgstr "Расстояние падающей тени"
+
+#: ../udesign_options_page.php:3099
+msgid "Distance of the shadow from the bottom of the image."
+msgstr "Расстояние тени от нижней части изображения."
+
+#: ../udesign_options_page.php:3103
+msgid "Drop Shadow Scale"
+msgstr "Размер тени"
+
+#: ../udesign_options_page.php:3106
+msgid ""
+"As the shadow is blurred, it appears wider that the actual image, when not "
+"resized. Thus it's a good idea to make it slightly smaller. 1 would be no "
+"resizing at all."
+msgstr ""
+"Т.к. тень размыта, она кажется больше чем размер изображения (если не "
+"изменено). Лучше всего сделать ее немного меньше. 1 - нет изменений размера."
+
+#: ../udesign_options_page.php:3110
+msgid "Drop Shadow Blur X"
+msgstr "Размытие тени по оси X"
+
+#: ../udesign_options_page.php:3113
+msgid "Blur of the drop shadow on the x-axis."
+msgstr "Размытие тени по оси X"
+
+#: ../udesign_options_page.php:3117
+msgid "Drop Shadow Blur Y"
+msgstr "Размытие тени по оси Y"
+
+#: ../udesign_options_page.php:3120
+msgid "Blur of the drop shadow on the y-axis."
+msgstr "Размытие тени по оси Y"
+
+#: ../udesign_options_page.php:3128
+msgid "Menu:"
+msgstr "Меню:"
+
+#: ../udesign_options_page.php:3132
+msgid "Menu Distance X"
+msgstr "Расстояние меню по оси X"
+
+#: ../udesign_options_page.php:3135
+msgid "Distance between two menu items (from center to center)."
+msgstr "Расстояние между двумя пунктами меню (от центра к центру)"
+
+#: ../udesign_options_page.php:3139
+msgid "Menu Distance Y"
+msgstr "Расстояние меню по оси X"
+
+#: ../udesign_options_page.php:3142
+msgid "Distance of the menu from the bottom of the image."
+msgstr "Расстояние меню от нижнего края изображения"
+
+#: ../udesign_options_page.php:3151
+msgid "Menu Color 1"
+msgstr "Цвет меню 1"
+
+#: ../udesign_options_page.php:3159
+msgid "Color of an inactive menu item."
+msgstr "Цвет неактивного пункта меню"
+
+#: ../udesign_options_page.php:3163
+msgid "Menu Color 2"
+msgstr "Цвет меню 2"
+
+#: ../udesign_options_page.php:3171
+msgid "Color of an active menu item."
+msgstr "Цвет активного пункта меню"
+
+#: ../udesign_options_page.php:3175
+msgid "Menu Color 3"
+msgstr "Цвет меню 3"
+
+#: ../udesign_options_page.php:3183
+msgid ""
+"Color of the inner circle of an active menu item. Should equal the "
+"background color of the whole thing."
+msgstr ""
+"Цвет внутренних кругов активного пункта меню. Должен быть таким же как "
+"второстепенный цвет всех предметов."
+
+#: ../udesign_options_page.php:3191
+msgid "Controls:"
+msgstr "Панель управления:"
+
+#: ../udesign_options_page.php:3195
+msgid "Controls' Size"
+msgstr "Размер панели управления"
+
+#: ../udesign_options_page.php:3198
+msgid ""
+"Size of the controls, which appear on rollover (play, stop, info, link)."
+msgstr ""
+"Размер панели управления, при появлении rollover (проиграть, остановить, "
+"информация, ссылка)"
+
+#: ../udesign_options_page.php:3202
+msgid "Controls' Distance"
+msgstr "Расстояние панели управления"
+
+#: ../udesign_options_page.php:3205
+msgid "Distance between the controls (from the borders)."
+msgstr "Расстояние между пунктами управления (от края)."
+
+#: ../udesign_options_page.php:3214
+msgid "Control Color 1"
+msgstr "Цвет панели управления 1"
+
+#: ../udesign_options_page.php:3222
+msgid "Background color of the controls."
+msgstr "Цвет фона пунктов панели управления."
+
+#: ../udesign_options_page.php:3226
+msgid "Control Color 2"
+msgstr "Цвет панели управления 2"
+
+#: ../udesign_options_page.php:3234
+msgid "Font color of the controls."
+msgstr "Цвет шрифта пунктов панели управления."
+
+#: ../udesign_options_page.php:3243
+msgid "Control Alpha"
+msgstr "Alpha панели управления"
+
+#: ../udesign_options_page.php:3246
+msgid "Alpha of a control, when mouse is not over."
+msgstr "Alpha панели управления до наведения мыши"
+
+#: ../udesign_options_page.php:3250
+msgid "Control Alpha Over"
+msgstr "Alpha панели управления при наведении"
+
+#: ../udesign_options_page.php:3253
+msgid "Alpha of a control, when mouse is over."
+msgstr "Alpha панели управления при наведении мыши"
+
+#: ../udesign_options_page.php:3257
+msgid "Controls X"
+msgstr "Панель управления X"
+
+#: ../udesign_options_page.php:3260
+msgid ""
+"X-position of the point, which aligns the controls (measured from [0,0] of "
+"the image)."
+msgstr ""
+"X-положение точки, которое выравнивает панел управления (считается от [0,0] "
+"изображения)"
+
+#: ../udesign_options_page.php:3264
+msgid "Controls Y"
+msgstr "Панель управления Y"
+
+#: ../udesign_options_page.php:3267
+msgid ""
+"Y-position of the point, which aligns the controls (measured from [0,0] of "
+"the image)."
+msgstr ""
+"Y-положение точки, которое выравнивает панел управления (считается от [0,0] "
+"изображения)"
+
+#: ../udesign_options_page.php:3271
+msgid "Controls' Alignment"
+msgstr "Выравнивание панели управления"
+
+#: ../udesign_options_page.php:3274 ../udesign_options_page.php:4981
+msgid "Choose Alignment: "
+msgstr "Выберите выравнивание:"
+
+#: ../udesign_options_page.php:3281
+msgid ""
+"Type of alignment from the point [controlsX, controlsY] - can be \"center\", "
+"\"left\" or \"right\"."
+msgstr ""
+"Способ выравнивания от точки [Панель управления X, Панель управления Y]. "
+"Может быть \"по центру\", \"слева\" или \"справа\""
+
+#: ../udesign_options_page.php:3289
+msgid "Toolstips:"
+msgstr "Инструмент подсказок:"
+
+#: ../udesign_options_page.php:3293
+msgid "Tooltip Height"
+msgstr "Высота подсказки"
+
+#: ../udesign_options_page.php:3296
+msgid "Height of the tooltip surface in the menu."
+msgstr "Высота подсказки появляющейся в меню."
+
+#: ../udesign_options_page.php:3305
+msgid "Tooltip Color"
+msgstr "Цвет  подсказки"
+
+#: ../udesign_options_page.php:3313
+msgid "Color of the tooltip surface in the menu."
+msgstr "Цвет подсказки появляющейся в меню."
+
+#: ../udesign_options_page.php:3322
+msgid "Tooltip Text Y"
+msgstr "Текст подсказки Y"
+
+#: ../udesign_options_page.php:3325
+msgid "Y-distance of the tooltip text field from the top of the tooltip."
+msgstr "Y-расстояние текста подсказки от верхнего края подсказки"
+
+#: ../udesign_options_page.php:3329
+msgid "Tooltip Text Style"
+msgstr "Стиль текста подсказки"
+
+#: ../udesign_options_page.php:3332
+msgid ""
+"The style of the tooltip text, specified in the CSS file. Default: \"P-Italic"
+"\""
+msgstr "Стили подсказки, определенные в CSS файле. По умолчанию: \"P-Italic\""
+
+#: ../udesign_options_page.php:3341
+msgid "Tooltip Text Color"
+msgstr "Цвет текста подсказки"
+
+#: ../udesign_options_page.php:3349
+msgid "Color of the tooltip text."
+msgstr "Цвет текста подсказки."
+
+#: ../udesign_options_page.php:3358
+msgid "Tooltip Margin Left"
+msgstr "Левый отступ подсказки от края"
+
+#: ../udesign_options_page.php:3361
+msgid "Margin of the text to the left end of the tooltip."
+msgstr "Отступ текста от левого края подсказки"
+
+#: ../udesign_options_page.php:3365
+msgid "Tooltip Margin Right"
+msgstr "Правый отступ подсказки от края"
+
+#: ../udesign_options_page.php:3368
+msgid "Margin of the text to the right end of the tooltip."
+msgstr "Отступ текста от правого края подсказки"
+
+#: ../udesign_options_page.php:3372
+msgid "Tooltip Text Sharpness"
+msgstr "Четкость текста подсказки"
+
+#: ../udesign_options_page.php:3375
+#, php-format
+msgid "Sharpness of the tooltip text (-400 to 400). %1$sMore info%2$s"
+msgstr "Четкость текста подсказки (от -400 до 400). %1$sMore info%2$s"
+
+#: ../udesign_options_page.php:3379
+msgid "Tooltip Text Thickness"
+msgstr "Толщина текста подсказки"
+
+#: ../udesign_options_page.php:3382
+#, php-format
+msgid "Thickness of the tooltip text (-400 to 400). %1$sMore info%2$s"
+msgstr "Толщина текста подсказки (от -400 до 400). %1$sMore info%2$s"
+
+#: ../udesign_options_page.php:3390
+msgid "Info Text:"
+msgstr "Текст информации:"
+
+#: ../udesign_options_page.php:3394
+msgid "Info Width"
+msgstr "Ширина"
+
+#: ../udesign_options_page.php:3397
+msgid "The width of the info text field."
+msgstr "Ширина текстового информационного поля."
+
+#: ../udesign_options_page.php:3406
+msgid "Info Background"
+msgstr "Фон"
+
+#: ../udesign_options_page.php:3414
+msgid "The background color of the info text field."
+msgstr "Цвет фона текстового информационного поля."
+
+#: ../udesign_options_page.php:3423
+msgid "Info Background Alpha"
+msgstr "Alpha фона"
+
+#: ../udesign_options_page.php:3426
+msgid ""
+"The alpha of the background of the info text, the image shines through, when "
+"smaller than 1."
+msgstr ""
+"Alpha фона текстового информационного поля. Прозрачность изображения при "
+"значении меньше 1."
+
+#: ../udesign_options_page.php:3430
+msgid "Info Margin"
+msgstr "Отступ от края"
+
+#: ../udesign_options_page.php:3433
+msgid "The margin of the text field in the info section to all sides."
+msgstr "Отступ текстового информационного поля от края по всем сторонам."
+
+#: ../udesign_options_page.php:3437
+msgid "Info Sharpness"
+msgstr "Четкость"
+
+#: ../udesign_options_page.php:3440
+msgid "Sharpness of the info text (-400 to 400)."
+msgstr "Четкость текстового информационного поля (от -400 до 400)."
+
+#: ../udesign_options_page.php:3444
+msgid "Info Thickness"
+msgstr "Толщина"
+
+#: ../udesign_options_page.php:3447
+msgid "Thickness of the info text (-400 to 400)."
+msgstr "Толщина текстового информационного поля (от -400 до 400)."
+
+#: ../udesign_options_page.php:3456
+msgid "Piecemaker 2 Slides:"
+msgstr "Piecemaker 2 Слайдер:"
+
+#: ../udesign_options_page.php:3479 ../udesign_options_page.php:3579
+#: ../widgets/customCategory-widget.php:116
+#: ../widgets/googleMap-widget.php:100 ../widgets/latestPost-widget.php:140
+#: ../widgets/loginForm-widget.php:133 ../widgets/subpages-widget.php:118
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: ../udesign_options_page.php:3483 ../udesign_options_page.php:3583
+#: ../udesign_options_page.php:4002 ../udesign_options_page.php:4070
+#: ../udesign_options_page.php:4274 ../udesign_options_page.php:4357
+msgid "Link:"
+msgstr "Ссылка:"
+
+#: ../udesign_options_page.php:3486 ../udesign_options_page.php:3586
+#: ../udesign_options_page.php:4005 ../udesign_options_page.php:4073
+#: ../udesign_options_page.php:4277 ../udesign_options_page.php:4360
+#: ../udesign_options_page.php:4529 ../udesign_options_page.php:4578
+msgid "Target: "
+msgstr "Способ открытия:"
+
+#: ../udesign_options_page.php:3488 ../udesign_options_page.php:3588
+#: ../udesign_options_page.php:4007 ../udesign_options_page.php:4075
+#: ../udesign_options_page.php:4279 ../udesign_options_page.php:4362
+#: ../udesign_options_page.php:4531 ../udesign_options_page.php:4580
+msgid "self"
+msgstr "В текущем окне"
+
+#: ../udesign_options_page.php:3489 ../udesign_options_page.php:3589
+#: ../udesign_options_page.php:4008 ../udesign_options_page.php:4076
+#: ../udesign_options_page.php:4280 ../udesign_options_page.php:4363
+#: ../udesign_options_page.php:4532 ../udesign_options_page.php:4581
+msgid "blank"
+msgstr "В новом окне"
+
+#: ../udesign_options_page.php:3499 ../udesign_options_page.php:3599
+msgid "To remove the text just leave a single space."
+msgstr "Чтобы удалить текст оставьте поле пустым."
+
+#: ../udesign_options_page.php:3511 ../udesign_options_page.php:3530
+#: ../udesign_options_page.php:3623 ../udesign_options_page.php:3654
+msgid "Title Attribute:"
+msgstr "Атрибут заголовока:"
+
+#: ../udesign_options_page.php:3513 ../udesign_options_page.php:3532
+#: ../udesign_options_page.php:3625 ../udesign_options_page.php:3656
+msgid "(The title attribute will be shown in the tooltip on the menu)"
+msgstr "(Атрибут заголовка будет показан в подсказке в меню)"
+
+#: ../udesign_options_page.php:3516 ../udesign_options_page.php:3628
+msgid "SWF Link:"
+msgstr "Ссылка SWF:"
+
+#: ../udesign_options_page.php:3518 ../udesign_options_page.php:3630
+msgid "(Paste the URL to the SWF file here. Should be on same Server)"
+msgstr "(Вставьте здесь адрес SWF файла. Должен быть такой же как на сервере.)"
+
+#: ../udesign_options_page.php:3535 ../udesign_options_page.php:3659
+msgid "Video Link:"
+msgstr "Ссылка на видео:"
+
+#: ../udesign_options_page.php:3537
+msgid ""
+"(Paste the URL to the video file here. Should be on same Server. Accepted "
+"file formats are MPEG4 with H.264 Codec, as well as F4V and FLV)"
+msgstr ""
+"(Вставьте здесь адрес видео файла. Должен быть такой же как на сервере. "
+"Поддерживает форматы MPEG4 с H.264 Codec, F4V и FLV)"
+
+#: ../udesign_options_page.php:3540 ../udesign_options_page.php:3664
+msgid "Width:"
+msgstr "Ширина:"
+
+#: ../udesign_options_page.php:3544 ../udesign_options_page.php:3668
+msgid "Height:"
+msgstr "Высота"
+
+#: ../udesign_options_page.php:3549 ../udesign_options_page.php:3673
+msgid "Autoplay: "
+msgstr "Авто воспроизведение:"
+
+#: ../udesign_options_page.php:3551 ../udesign_options_page.php:3675
+msgid "Yes"
+msgstr "Да"
+
+#: ../udesign_options_page.php:3552 ../udesign_options_page.php:3676
+msgid "No"
+msgstr "Нет"
+
+#: ../udesign_options_page.php:3661
+msgid ""
+"(Paste the URL to the FLV file here. Should be on same Server. Accepted file "
+"formats are MPEG4 with H.264 Codec, as well as F4V and FLV)"
+msgstr ""
+"(Вставьте здесь адрес FLV файла. Должен быть такой же как на сервере. "
+"Поддерживает форматы MPEG4 с H.264 Codec, F4V и FLV)"
+
+#: ../udesign_options_page.php:3687
+msgid "Piecemaker 2 Transitions:"
+msgstr "Piecemaker 2 переключения (переходы):"
+
+#: ../udesign_options_page.php:3688
+msgid ""
+"You can add as many transitions to the Piecemaker 2 as you want. These "
+"transitions will be started in the order they are specified below. This "
+"order is entirely independent from the order of the slides above. Once the "
+"last transition is reached, it starts over again with the first transition."
+msgstr ""
+
+#: ../udesign_options_page.php:3689
+msgid ""
+"Every transition needs to have the following six attributes assigned to it:"
+msgstr ""
+
+#: ../udesign_options_page.php:3691
+#, fuzzy
+msgid "Pieces"
+msgstr "Части:"
+
+#: ../udesign_options_page.php:3691
+#, fuzzy
+msgid "Number of pieces to which the image is sliced."
+msgstr "Количество частей, на которые будет порезано изображение."
+
+#: ../udesign_options_page.php:3692
+#, fuzzy
+msgid "Time"
+msgstr "Время:"
+
+#: ../udesign_options_page.php:3692
+msgid "Time for one cube to turn."
+msgstr ""
+
+#: ../udesign_options_page.php:3693
+#, fuzzy
+msgid "Transition"
+msgstr "Переход:"
+
+#: ../udesign_options_page.php:3693
+msgid ""
+"Transition type of the Tweener class. For more info on these types see the "
+"official Tweener Documentation and go to \"Transition Types\". The best "
+"results are achieved by those transition types, which begin with easeInOut."
+msgstr ""
+
+#: ../udesign_options_page.php:3694
+#, fuzzy
+msgid "Delay"
+msgstr "Задержка:"
+
+#: ../udesign_options_page.php:3694
+msgid "Delay between the start of one cube to the start of the next cube."
+msgstr ""
+
+#: ../udesign_options_page.php:3695
+msgid "Depth Offset"
+msgstr ""
+
+#: ../udesign_options_page.php:3695
+msgid ""
+"The offset during transition on the z-axis. Value between 100 and 1000 are "
+"recommended. But go for experiments."
+msgstr ""
+
+#: ../udesign_options_page.php:3696
+#, fuzzy
+msgid "Cube Distance"
+msgstr "Расстояние кубика:"
+
+#: ../udesign_options_page.php:3696
+msgid ""
+"The distance between the cubes during transition. Values between 5 and 50 "
+"are recommended. But go for experiments."
+msgstr ""
+
+#: ../udesign_options_page.php:3711 ../udesign_options_page.php:3791
+msgid "Pieces:"
+msgstr "Части:"
+
+#: ../udesign_options_page.php:3715 ../udesign_options_page.php:3795
+msgid "Time:"
+msgstr "Время:"
+
+#: ../udesign_options_page.php:3720 ../udesign_options_page.php:3800
+msgid "Transition: "
+msgstr "Переход:"
+
+#: ../udesign_options_page.php:3767 ../udesign_options_page.php:3847
+msgid "Delay:"
+msgstr "Задержка:"
+
+#: ../udesign_options_page.php:3771 ../udesign_options_page.php:3851
+msgid "Depth Offset:"
+msgstr ""
+
+#: ../udesign_options_page.php:3775 ../udesign_options_page.php:3855
+msgid "Cube Distance:"
+msgstr "Расстояние кубика:"
+
+#: ../udesign_options_page.php:3873
+msgid ""
+"In the case when JavaScript is disabled the 1st slider image is displayed by "
+"default in place of the Piecemaker 2 slider, you may change that in here"
+msgstr ""
+"Когда JavaScript отключен, вместо слайдера Piecemaker 2, показывается 1-ое "
+"изображение слайда. Вы можете изменить это здесь"
+
+#: ../udesign_options_page.php:3896
+msgid "Cycle 1 Slider Settings:"
+msgstr "Настройки слайдера Cycle 1:"
+
+#: ../udesign_options_page.php:3900 ../udesign_options_page.php:4112
+msgid "Transition Speed"
+msgstr "Скорость перехода"
+
+#: ../udesign_options_page.php:3903 ../udesign_options_page.php:4115
+msgid "Speed of the transition."
+msgstr "Скорость перехода."
+
+#: ../udesign_options_page.php:3907 ../udesign_options_page.php:4119
+#: ../udesign_options_page.php:4414
+msgid "Timeout"
+msgstr "Перерыв"
+
+#: ../udesign_options_page.php:3910 ../udesign_options_page.php:4122
+#: ../udesign_options_page.php:4417
+msgid "Milliseconds between slide transitions (0 to disable auto advance)."
+msgstr ""
+"Миллисекунды между переходами слайдов (0 для отключения авто движения)."
+
+#: ../udesign_options_page.php:3914 ../udesign_options_page.php:3916
+#: ../udesign_options_page.php:4126 ../udesign_options_page.php:4128
+msgid "Sync"
+msgstr "Синхронизация"
+
+#: ../udesign_options_page.php:3919 ../udesign_options_page.php:4131
+msgid ""
+"Toggle this option to see how some effects behave differently (such as "
+"blind, curtain, and zoom)."
+msgstr ""
+"Включив эту опцию, Вы увидите, как некоторые эффекты ведут себя по другому "
+"(такие как blind, curtain и zoom)."
+
+#: ../udesign_options_page.php:3925 ../udesign_options_page.php:3927
+msgid "Image Frame"
+msgstr "Рамка изображения"
+
+#: ../udesign_options_page.php:3930
+msgid "Remove the image frame with the border around the image?"
+msgstr "Удалить рамку вокруг изображения?"
+
+#: ../udesign_options_page.php:3931
+msgid ""
+"With the frame enabled (default state) image dimension is 914px by 374px "
+"(width by height). Without the frame image dimension is 940px by 400px. "
+"Depending on which option is selected, create and upload images with the "
+"corresponding dimensions for optimal quality."
+msgstr ""
+"Со включенной рамкой (по умолчанию),  размер изображения 914px на 374px "
+"(ширина x высота). Без рамки, изображение 940px на 400px. В зависимости от "
+"выбранной опции, создайте и загрузите изображение соответствующего размера."
+
+#: ../udesign_options_page.php:3999 ../udesign_options_page.php:4067
+msgid "Transition effect."
+msgstr "Эффект перехода."
+
+#: ../udesign_options_page.php:4012 ../udesign_options_page.php:4080
+#: ../udesign_options_page.php:4284 ../udesign_options_page.php:4367
+#: ../udesign_options_page.php:4536 ../udesign_options_page.php:4585
+#, fuzzy
+msgid "Alt Tag:"
+msgstr "Тэг: "
+
+#: ../udesign_options_page.php:4015 ../udesign_options_page.php:4083
+#: ../udesign_options_page.php:4539 ../udesign_options_page.php:4588
+#, fuzzy
+msgid "(To clear a text field above, replace it with a single space)"
+msgstr "(Чтобы удалить ссылку, введите пробел)"
+
+#: ../udesign_options_page.php:4108
+msgid "Cycle 2 Slider Settings:"
+msgstr "Настройки слайдера Cycle 2:"
+
+#: ../udesign_options_page.php:4137 ../udesign_options_page.php:4139
+msgid "Enable Transition on Text"
+msgstr "Включить переход для текста"
+
+#: ../udesign_options_page.php:4142
+msgid ""
+"Toggle this option to enable/disable the transition effect on the info text. "
+"If disabled (unchecked) then the text will disapear for the duration of the "
+"transition."
+msgstr ""
+"Отметьте эту опцию для включения/выключения эффекта перехда для текста. Если "
+"отключить (убрать маркер), тогда текст исчезнет для продолжительности "
+"перехода."
+
+#: ../udesign_options_page.php:4148 ../udesign_options_page.php:4432
+msgid "Text Size"
+msgstr "Размер шрифта"
+
+#: ../udesign_options_page.php:4167 ../udesign_options_page.php:4451
+msgid ""
+"When using \"em\" you are specifying size relative to the general font size."
+msgstr ""
+"Используя \"em\", вы задаете размер относительно от общего размера шрифта"
+
+#: ../udesign_options_page.php:4171 ../udesign_options_page.php:4455
+msgid "Text Line Height"
+msgstr "Высота линии текста (Line Height)"
+
+#: ../udesign_options_page.php:4174 ../udesign_options_page.php:4458
+msgid "Line Height: "
+msgstr "Высота линии текста (Line Height)"
+
+#: ../udesign_options_page.php:4216
+msgid "Slider text color including the Title."
+msgstr "Цвет текста слайда, включая заголовок."
+
+#: ../udesign_options_page.php:4241 ../udesign_options_page.php:4324
+msgid "Transition:"
+msgstr "Переход:"
+
+#: ../udesign_options_page.php:4289 ../udesign_options_page.php:4372
+#: ../udesign_options_page.php:4550 ../udesign_options_page.php:4599
+msgid "(You could use text and/or html)"
+msgstr "(Вы можете использовать текст и/или html)"
+
+#: ../udesign_options_page.php:4295 ../udesign_options_page.php:4378
+msgid "Button Text:"
+msgstr "Текст кнопки:"
+
+#: ../udesign_options_page.php:4297 ../udesign_options_page.php:4380
+msgid "Button Style: "
+msgstr "Стиль кнопки:"
+
+#: ../udesign_options_page.php:4299 ../udesign_options_page.php:4382
+msgid "Dark"
+msgstr "Темный"
+
+#: ../udesign_options_page.php:4300 ../udesign_options_page.php:4383
+msgid "Light"
+msgstr "Светлый"
+
+#: ../udesign_options_page.php:4303 ../udesign_options_page.php:4386
+#, fuzzy
+msgid ""
+"The button is activated only if a <strong>Link</strong> is provided. To "
+"remove the button just replace the link with a single space."
+msgstr "Кнопка активирована только если есть <strong>Ссылка</strong>."
+
+#: ../udesign_options_page.php:4410
+msgid "Cycle 3 Slider Settings:"
+msgstr "Настройки слайдера Cycle 3:"
+
+#: ../udesign_options_page.php:4421 ../udesign_options_page.php:4423
+msgid "Autostop"
+msgstr "Авто стоп"
+
+#: ../udesign_options_page.php:4426
+msgid "End slideshow after the last slide."
+msgstr "Закончить слайд-шоу после последнего слайда."
+
+#: ../udesign_options_page.php:4500
+msgid "Slider text color."
+msgstr "Цвет текста слайдера."
+
+#: ../udesign_options_page.php:4526 ../udesign_options_page.php:4575
+msgid "Image Link:"
+msgstr "Ссылка на изображение:"
+
+#: ../udesign_options_page.php:4543 ../udesign_options_page.php:4592
+msgid "Image 2:"
+msgstr "Изображение 2:"
+
+#: ../udesign_options_page.php:4624
+#, fuzzy
+msgid "Title Text"
+msgstr "Заголовок:"
+
+#: ../udesign_options_page.php:4626
+#, fuzzy
+msgid "Change the Title:"
+msgstr "Изменить фразу:"
+
+#: ../udesign_options_page.php:4628
+msgid ""
+"This is the title text displayed in the place of the slider on the home page"
+msgstr "Текст, показываемый вместо слайдера на главной странице"
+
+#: ../udesign_options_page.php:4648
+#, php-format
+msgid ""
+"You need  to install the \"Revolution Slider\" first before using this "
+"feature. You may install the slider through the %1$sInstall Plugins%2$s "
+"section."
+msgstr ""
+
+#: ../udesign_options_page.php:4660
+#, php-format
+msgid ""
+"No sliders found!  Please create a new slider from the %1$sRevolution Slider"
+"%2$s page."
+msgstr ""
+
+#: ../udesign_options_page.php:4663
+#, fuzzy
+msgid "Choose a Revolution Slider:"
+msgstr "Выбрать слайдер:"
+
+#: ../udesign_options_page.php:4665
+msgid "--Select Slider--"
+msgstr ""
+
+#: ../udesign_options_page.php:4670
+#, php-format
+msgid ""
+"To create additional sliders or to configure the existing ones please refer "
+"to the %1$sRevolution Slider%2$s page."
+msgstr ""
+
+#: ../udesign_options_page.php:4671
+#, php-format
+msgid "For help please refer to the %1$sDocumentation%2$s."
+msgstr ""
+
+#: ../udesign_options_page.php:4691
+msgid "Portfolio Pages"
+msgstr "Страницы портфолио"
+
+#: ../udesign_options_page.php:4693
+msgid ""
+"Use this area to assign Portfolio Categories to their respective Portfolio "
+"pages."
+msgstr ""
+"Используйте эту область чтобы назначить рубрикам портфолио соответствующие "
+"страницы портфолио."
+
+#: ../udesign_options_page.php:4694
+msgid ""
+"Firstly though, you have to create the Portfolio page(s) and assign the "
+"\"Portfolio page\" template to it."
+msgstr ""
+"Сначала вы должны создать страницу(ы) Портфолио и назначить им шаблон "
+"\"Страница портфолио\""
+
+#: ../udesign_options_page.php:4695
+msgid ""
+"If you don't see any categories in the dropdown(s) below it's because you "
+"haven't created any yet, in that case go to 'Posts -> Categories' and create "
+"a 'Portfolio' category there. Also don't forget to save all your Portfolio "
+"related Posts and sub categories under that category."
+msgstr ""
+"Если вы не видите ни одной рубрики в выпадающем списке, значит вы ничего еще "
+"не создали. В этом случае, вам необходимо перейти в 'Записи -> Рубрики'"
+
+#: ../udesign_options_page.php:4700
+msgid "To Portfolio page"
+msgstr "На страницу портфолио"
+
+#: ../udesign_options_page.php:4701
+msgid "assign the Category:"
+msgstr "назначить рубрику:"
+
+#: ../udesign_options_page.php:4701
+msgid "Select Category"
+msgstr "Выбрать рубрику"
+
+#: ../udesign_options_page.php:4702
+msgid "with"
+msgstr "с"
+
+#: ../udesign_options_page.php:4702
+msgid "items per page."
+msgstr "блоков на странице."
+
+#: ../udesign_options_page.php:4707
+msgid "Do not link adjacent items in this category as gallery."
+msgstr ""
+
+#: ../udesign_options_page.php:4709
+msgid ""
+"(Remove the ability to go to the next or previous item when previewing with "
+"prettyPhoto lightbox)"
+msgstr ""
+
+#: ../udesign_options_page.php:4716
+msgid "Portfolio Title Position"
+msgstr "Расположение заголовка портфолио"
+
+#: ../udesign_options_page.php:4719
+msgid "Below"
+msgstr "Ниже"
+
+#: ../udesign_options_page.php:4720
+msgid "Above"
+msgstr "Выше"
+
+#: ../udesign_options_page.php:4721
+msgid ""
+"This is the post title shown with every thumbnail. Choose whether you would "
+"like to have it displayed above the Thumbnail or just below it."
+msgstr ""
+"Заголовок записи, который показывается с каждой миниатюрой. Выберите "
+"понравившийся, для отображения ниже миниатюры или прямо над ней."
+
+#: ../udesign_options_page.php:4728
+#, fuzzy
+msgid ""
+"The following settings refer to the individual portfolio item post (single "
+"post view)"
+msgstr "Боковая колонка, показываемая в одной записи портфолио."
+
+#: ../udesign_options_page.php:4732 ../udesign_options_page.php:4808
+#: ../udesign_options_page.php:5049
+msgid "Sidebar Position"
+msgstr "Положение боковой колонки"
+
+#: ../udesign_options_page.php:4737
+#, fuzzy
+msgid "This is the sidebar shown on individual portfolio items' posts"
+msgstr "Боковая колонка, показываемая в одной записи портфолио."
+
+#: ../udesign_options_page.php:4741 ../udesign_options_page.php:4743
+msgid "Portfolio Post Metadata"
+msgstr "Мета данные записи портфолио"
+
+#: ../udesign_options_page.php:4746
+msgid "Show Portfolio Post Metadata box (Single View)."
+msgstr "Показывать мета данные для записи портфолио (одна запись)"
+
+#: ../udesign_options_page.php:4747
+msgid ""
+"This is the info box situated right under the post and just above the "
+"comments area."
+msgstr "Информационный блок, расположенный под записью, но выше комментариев"
+
+#: ../udesign_options_page.php:4753 ../udesign_options_page.php:4755
+msgid "Portfolio Post Author"
+msgstr "Автор записи портфолио"
+
+#: ../udesign_options_page.php:4758
+msgid ""
+"Show Author Name (\"Portfolio Post Metadata\" needs to be enabled for this "
+"option)"
+msgstr ""
+"Показать имя автора (для включения этой опции необходимы \"Мета данные "
+"записи портфолио\")"
+
+#: ../udesign_options_page.php:4759 ../udesign_options_page.php:4860
+#, fuzzy, php-format
+msgid ""
+"The following text: \"Written by: Author Name\" will be added to the "
+"postmetadata box. The author's name will be displayed as specified under "
+"%1$sUsers -> Your Profile%2$s <strong>Display name publicly as</strong> "
+"field and linking it to the author's page."
+msgstr ""
+"Текст \"Автор: Имя автора\", будет добавлен в блок мета данных записи. Имя "
+"автора будет указано так, как задано в поле %1$sПользователи -> Ваш профиль"
+"%2$s <strong>Отображать как</strong> и в поле <strong>Сайт</strong> будет "
+"соответствующий адрес."
+
+#: ../udesign_options_page.php:4765 ../udesign_options_page.php:4767
+msgid "Portfolio Post Tags"
+msgstr "Тэги записи портфолио"
+
+#: ../udesign_options_page.php:4770
+msgid "Show Portfolio Post Tags"
+msgstr "Показывать тэги записи портфолио"
+
+#: ../udesign_options_page.php:4776 ../udesign_options_page.php:4778
+msgid "Show Comment Area"
+msgstr "Показать комментарии"
+
+#: ../udesign_options_page.php:4781
+msgid "Show comment area in Portfolio posts (Single View)"
+msgstr "Показать комментарии для одной записи потфолио"
+
+#: ../udesign_options_page.php:4787 ../udesign_options_page.php:4789
+#: ../udesign_options_page.php:4910 ../udesign_options_page.php:4912
+msgid "Full-width Single Post View Page"
+msgstr "Страница просмотра одной записи во всю ширину"
+
+#: ../udesign_options_page.php:4792
+#, fuzzy
+msgid "Remove the sidebar from Single Post View Portfolio pages."
+msgstr "Удалить боковую колонку со страницы просмотра одной записи"
+
+#: ../udesign_options_page.php:4813
+msgid "This is the sidebar shown on blog pages"
+msgstr "Боковая колонка, показываемая на страницах блога"
+
+#: ../udesign_options_page.php:4817
+msgid "Show Excerpt"
+msgstr "Показать цитату"
+
+#: ../udesign_options_page.php:4819 ../udesign_options_page.php:4842
+#: ../udesign_options_page.php:4844
+msgid "Exclude Portfolio(s) from Blog"
+msgstr "Исключить портфолио из блога"
+
+#: ../udesign_options_page.php:4822
+msgid "Show the excerpt instead of the full post content on the Blog page."
+msgstr "Показывает цитату вместо всего содержимого записи"
+
+#: ../udesign_options_page.php:4828
+msgid "Excerpt Length"
+msgstr "Длина цитаты"
+
+#: ../udesign_options_page.php:4830
+msgid "Change the excerpt length:"
+msgstr "Изменить длину цитаты:"
+
+#: ../udesign_options_page.php:4831
+msgid "This number refers to the number of words to show."
+msgstr "Количество показываемых словю"
+
+#: ../udesign_options_page.php:4835
+msgid "\"Read more\" Link"
+msgstr "Ссылка \"Читать далее\""
+
+#: ../udesign_options_page.php:4838
+msgid ""
+"Enter the text for the post's 'Read more' link.  Leave blank to hide it."
+msgstr ""
+"Введите текст для ссылки \"Читать далее\" в записи. Оставьте поле пустым, "
+"чтоб скрыть ссылку."
+
+#: ../udesign_options_page.php:4847
+msgid ""
+"Exclude Portfolio section(s) related posts from showing in the the general "
+"Blog section (\"Blog page\" template loop)."
+msgstr ""
+"Исключить записи раздела портфолио из содержимого, отображаемого на "
+"страницах блога (Шаблон \"Страница Блога\")"
+
+#: ../udesign_options_page.php:4848
+#, fuzzy
+msgid ""
+"Note: Portfolio posts are those that have been assigned to a portfolio "
+"related category. A portfolio related category is one which either directly "
+"or indirectly (parent or descendant) has been assigned to a \"Portfolio page"
+"\" template (see the \"Portfolio section above for these assignments)"
+msgstr ""
+"Обратите внимание: записи портфолио - это записи, которые находятся в "
+"рубрике с шаблоном портфолио. Рубрики портфолио - это те, для которых прямо "
+"или косвенно (родитель или потомок) был установлен шаблон \"Страница "
+"портфолио\" (см. раздел \"Портфолио\" выше)"
+
+#: ../udesign_options_page.php:4854 ../udesign_options_page.php:4856
+msgid "Show Post Author"
+msgstr "Показать автора записи"
+
+#: ../udesign_options_page.php:4859
+msgid "Show Author Name"
+msgstr "Показать имя автора"
+
+#: ../udesign_options_page.php:4866 ../udesign_options_page.php:4868
+msgid "Post Tags"
+msgstr "Тэги записи"
+
+#: ../udesign_options_page.php:4871
+msgid "Show Post Tags"
+msgstr "Показать тэги записи"
+
+#: ../udesign_options_page.php:4877 ../udesign_options_page.php:4879
+msgid "Category Archive Title"
+msgstr "Название архива рубрик"
+
+#: ../udesign_options_page.php:4882
+msgid ""
+"Remove the \"Archive for the '...' Category\" string from the category "
+"archive title."
+msgstr "Удалить фразу \"Архив для рубрики '...'\" из названия архива рубрик."
+
+#: ../udesign_options_page.php:4888 ../udesign_options_page.php:4890
+msgid "Full-width Blog Page"
+msgstr "Страница Блога во всю ширину"
+
+#: ../udesign_options_page.php:4893
+msgid "Remove the sidebar from Blog pages."
+msgstr "Удалить боковую колонку со страниц блога"
+
+#: ../udesign_options_page.php:4899 ../udesign_options_page.php:4901
+msgid "Full-width Archive Page"
+msgstr "Страница Архива во всю ширину"
+
+#: ../udesign_options_page.php:4904
+msgid ""
+"Remove the sidebar from Archive pages (e.g. Category archives, Date "
+"archives, Tag archives, etc.)."
+msgstr ""
+"Удалить боковую колонку со страниц архива (например, архив рахделов, архив "
+"дат, архив тэгов и т.д.)."
+
+#: ../udesign_options_page.php:4915
+msgid "Remove the sidebar from Single Post View pages."
+msgstr "Удалить боковую колонку со страницы просмотра одной записи"
+
+#: ../udesign_options_page.php:4921 ../udesign_options_page.php:4923
+msgid "Post Image in Single Post View"
+msgstr ""
+
+#: ../udesign_options_page.php:4926
+#, fuzzy
+msgid "Display the post image in single post view."
+msgstr "Примените эту ширину изображения в пикселах."
+
+#: ../udesign_options_page.php:4936
+msgid "Blog and Archive Section \"Featured Image\":"
+msgstr "\"Featured Image\" раздела Блог и Архив:"
+
+#: ../udesign_options_page.php:4937
+msgid ""
+"Use this section to set the Post \"Featured Image\" the way it will be shown "
+"on the Blog and Archive Pages for each post. Please note, that if you have "
+"\"post_image\" custom field specified in a post, it will be given priority "
+"over the post \"Featured Image\", so if you would like to use the \"Featured "
+"Image\" do not use the custom field \"post_image\"."
+msgstr ""
+"Используйте этот раздел для определения\"Featured Image\" записи способом, "
+"которым он будет на странице блога или архива для каждой записи. Обратите "
+"внимание: Если у вас есть произвольное поле \"post_image\" указаное для "
+"записи, то оно будет иметь приоритет по сравнению с \"Featured Image\". Если "
+"вы хотите использовать \"Featured Image\" не используйте произвольное полу "
+"\"post_image\"."
+
+#: ../udesign_options_page.php:4941
+msgid "Enable This Section"
+msgstr "Включить эту секцию"
+
+#: ../udesign_options_page.php:4943 ../udesign_options_page.php:4968
+msgid "Enable Custom \"Featured Image\""
+msgstr "Включить выбор \"Featured Image\""
+
+#: ../udesign_options_page.php:4946
+msgid ""
+"Select this option to apply the settings below to the \"Featured Image\"."
+msgstr "Выберите эту опцию для применения настроек ниже к \"Featured Image\"."
+
+#: ../udesign_options_page.php:4955
+msgid "Apply this image width in pixels."
+msgstr "Примените эту ширину изображения в пикселах."
+
+#: ../udesign_options_page.php:4962
+msgid "Apply this image height in pixels."
+msgstr "Примените эту высоту изображения в пикселах."
+
+#: ../udesign_options_page.php:4966
+msgid "Force Image Dimensions"
+msgstr ""
+
+#: ../udesign_options_page.php:4971
+msgid ""
+"Select this option to crop and resize the image with TimThumb script which "
+"is recommended if you would like all images to be of the same dimensions, "
+"otherwise the built-in WordPress resizing will be applied to the \"Featured "
+"Image\"."
+msgstr ""
+"Выберите, чтобы обрезать и изменить изображение с помощью скрипта TimThumb. "
+"Рекомендуется, если вы хотите иметь все изображения одинакового размера, в "
+"противном случае к прикрепленному изображению будет применяться встроенная в "
+"WordPress опция \"Featured Image\"."
+
+#: ../udesign_options_page.php:4974
+msgid ""
+"(This option would only be considered if TimThumb is enabled from the "
+"\"General Options\")"
+msgstr ""
+
+#: ../udesign_options_page.php:4978
+msgid "Image Alignment"
+msgstr "Выравнивание изображения"
+
+#: ../udesign_options_page.php:4984
+msgid "Center"
+msgstr "Центр"
+
+#: ../udesign_options_page.php:5016
+msgid "Enable Business Contact"
+msgstr "Включить \"Информация о Бизнесе\""
+
+#: ../udesign_options_page.php:5017
+msgid "Enable Contact Info Fields"
+msgstr "Включите поля \"Контактная информация\""
+
+#: ../udesign_options_page.php:5020
+msgid "Enable the Business Contact fields (see below for description)"
+msgstr "Включить поля \"Информация о Бизнесе\" (смотрите описание ниже)"
+
+#: ../udesign_options_page.php:5023
+msgid "Business Contact Fields"
+msgstr "Информация о Бизнесе"
+
+#: ../udesign_options_page.php:5025
+msgid ""
+"The Business Contact Fields provide a way to better display additional "
+"contact information such as Company Name, Address, Phone, etc. An example of "
+"a Field pair could be <strong>Telephone: (123) 123-4567</strong>, where you "
+"would enter the \"<strong>Telephone:</strong>\" part in the first field and "
+"\"<strong>(123) 123-4567</strong>\" in the second (under the same \"Line #"
+"\") respectively."
+msgstr ""
+"Поле \"Информация о Бизнесе\" позволяет лучше отобразить дополнительную "
+"информацию, например: Название компании, Адрес, Телефон, и т.д. Пример пары "
+"полей: <strong>Телефон: (123) 123-4567</strong>, где Вы вводите сначала "
+"\"<strong>Телефон:</strong>\" в первое поле и \"<strong>(123) 123-4567</"
+"strong>\" - во второе (под тем же самым \"Линия №\") соответственно."
+
+#: ../udesign_options_page.php:5026
+msgid "Line 1:"
+msgstr "Линия 1: "
+
+#: ../udesign_options_page.php:5029
+msgid "Line 2:"
+msgstr "Линия 2: "
+
+#: ../udesign_options_page.php:5032
+msgid "Line 3:"
+msgstr "Линия 3: "
+
+#: ../udesign_options_page.php:5035
+msgid "Line 4:"
+msgstr "Линия 4: "
+
+#: ../udesign_options_page.php:5038
+msgid "Line 5:"
+msgstr "Линия 5: "
+
+#: ../udesign_options_page.php:5041
+msgid "Line 6:"
+msgstr "Линия 6: "
+
+#: ../udesign_options_page.php:5044
+msgid "Line 7:"
+msgstr "Линия 7: "
+
+#: ../udesign_options_page.php:5047
+msgid ""
+"Some html tags and inline styling could be used for formatting here, e.g."
+msgstr "Вы можете использовать здесь некоторые html тэги и стили, например"
+
+#: ../udesign_options_page.php:5047
+msgid "Address"
+msgstr "Адрес"
+
+#: ../udesign_options_page.php:5047
+msgid "or"
+msgstr "или"
+
+#: ../udesign_options_page.php:5053
+msgid "This is the sidebar shown on the Contact page"
+msgstr "Боковая колонка, показываемая на странице Контакты"
+
+#: ../udesign_options_page.php:5055 ../udesign_options_page.php:5056
+msgid "Remove Sidebar"
+msgstr ""
+
+#: ../udesign_options_page.php:5059
+msgid ""
+"Remove the sidebar from the Contact page, which will make it a full-width "
+"page layout."
+msgstr ""
+
+#: ../udesign_options_page.php:5062
+msgid "Phone Number validation"
+msgstr "Проверка телефонного номера"
+
+#: ../udesign_options_page.php:5063
+msgid ""
+"This is the field displayed in the E-mail form on the Contact page template. "
+"If checked, the validation for North American phone numbers will be enabled."
+msgstr ""
+"Если проверка телефонного номера Северной Америки будет активирована, это "
+"поле отобразится в почтовой форме в шаблоне страницы Контакты."
+
+#: ../udesign_options_page.php:5064
+msgid "Enable North American phone number validation"
+msgstr "Активировать телефонный номер Северной Америки"
+
+#: ../udesign_options_page.php:5067
+msgid "Enable North American phone number validation in the contact email form"
+msgstr ""
+"Активировать проверка телефонного номера Северной Америки в форме email"
+
+#: ../udesign_options_page.php:5073
+msgid "E-mail Recipient(s)"
+msgstr "E-mail Получателя(ей)"
+
+#: ../udesign_options_page.php:5075
+msgid ""
+"Please enter recipient's email address, comma-separate multiple recipients:"
+msgstr ""
+"Пожалуйста, введите адрес электронной почты получателя. Несколько "
+"получателей разделите запятыми:"
+
+#: ../udesign_options_page.php:5080 ../udesign_options_page.php:5082
+msgid "Enable ReCAPTCHA"
+msgstr "Включить ReCAPTCHA"
+
+#: ../udesign_options_page.php:5085
+#, php-format
+msgid ""
+"Add ReCAPTCHA to the email form for extra security (for more information "
+"visit %s)"
+msgstr ""
+"Добавьте ReCAPTCHA в форму email для обеспечения дополнительной безопасности "
+"(дополнительная информация на %s)"
+
+#: ../udesign_options_page.php:5087
+msgid ""
+"Please note: ReCAPTCHA will be automatically disabled if the two fields "
+"below are empty!"
+msgstr ""
+"Обратите внимание: Если 2 поля внизу будут незаполненные, ReCAPTCHA будет "
+"автоматически отключена!"
+
+#: ../udesign_options_page.php:5092
+msgid "ReCAPTCHA Public Key"
+msgstr "Открытый ключ ReCAPTCHA"
+
+#: ../udesign_options_page.php:5095
+msgid "To use reCAPTCHA you must get an API public key from"
+msgstr ""
+"Для использования reCAPTCHA Вам необходимо получить открытый API ключ от"
+
+#: ../udesign_options_page.php:5099
+msgid "ReCAPTCHA Private Key"
+msgstr "Закрытый ключ ReCAPTCHA"
+
+#: ../udesign_options_page.php:5102
+msgid "To use ReCAPTCHA you must get an API private key from"
+msgstr ""
+"Для использования ReCAPTCHA вам необходимо получить закрытый API ключ от"
+
+#: ../udesign_options_page.php:5103
+msgid ""
+"This key is used when communicating between your server and the ReCAPTCHA "
+"server. Be sure to keep it a secret."
+msgstr ""
+"Этот ключ используется для соединения между Вашим сервером и ReCAPTCHA "
+"сервером. Никому его не говорите. "
+
+#: ../udesign_options_page.php:5107
+msgid "ReCAPTCHA Theme"
+msgstr "Тема ReCAPTCHA"
+
+#: ../udesign_options_page.php:5110
+msgid "Choose Theme: "
+msgstr "Выбрать тему:"
+
+#: ../udesign_options_page.php:5112
+msgid "white"
+msgstr "белая (white)"
+
+#: ../udesign_options_page.php:5113
+msgid "red"
+msgstr "красная (red)"
+
+#: ../udesign_options_page.php:5114
+msgid "blackglass"
+msgstr "черное стекло (blackglass)"
+
+#: ../udesign_options_page.php:5115
+msgid "clean"
+msgstr "очистить"
+
+#: ../udesign_options_page.php:5121
+msgid "ReCAPTCHA Language"
+msgstr "Язык ReCAPTCHA"
+
+#: ../udesign_options_page.php:5124
+msgid "Language: "
+msgstr "Язык:"
+
+#: ../udesign_options_page.php:5151
+msgid "Copyright Message"
+msgstr "Текст копирайта"
+
+#: ../udesign_options_page.php:5155
+msgid "Copyright message displayed in the footer."
+msgstr "Показать копирайт в футере"
+
+#: ../udesign_options_page.php:5159 ../udesign_options_page.php:5161
+msgid "WordPress credits link"
+msgstr "Ссылка на WordPress"
+
+#: ../udesign_options_page.php:5164
+#, php-format
+msgid "Show \"is proudly powered by %s\" in footer?"
+msgstr "Показать \"работает на %s\" в нижней части сайта (футере)?"
+
+#: ../udesign_options_page.php:5175 ../udesign_options_page.php:5177
+msgid "Your \"U-Design\" Affiliate Link"
+msgstr ""
+
+#: ../udesign_options_page.php:5180
+#, php-format
+msgid "Show %1$sThemeForest Affiliate%2$s link in footer?"
+msgstr ""
+
+#: ../udesign_options_page.php:5182
+#, php-format
+msgid "ThemeForest %1$susername%2$s:"
+msgstr ""
+
+#: ../udesign_options_page.php:5184
+msgid "(case-sensitive)"
+msgstr ""
+
+#: ../udesign_options_page.php:5185
+#, php-format
+msgid ""
+"Would you like to make money with \"U-Design\"? Refer new ThemeForest users "
+"to the \"U-Design\" theme and ThemeForest will pay you 30&#37; of their "
+"first purchase or cash deposit!! Click %1$shere%2$s for more information."
+msgstr ""
+
+#: ../udesign_options_page.php:5195 ../udesign_options_page.php:5197
+msgid "Entries (RSS) link"
+msgstr "Ссылка Записи (RSS)"
+
+#: ../udesign_options_page.php:5200
+msgid "Show \"Entries (RSS)\" link in footer?"
+msgstr "Показать ссылку \"Записи (RSS)\" в нижней части сайта (футере)?"
+
+#: ../udesign_options_page.php:5206 ../udesign_options_page.php:5208
+msgid "Comments (RSS) link"
+msgstr "Ссылка Комментарии (RSS)"
+
+#: ../udesign_options_page.php:5211
+msgid "Show \"Comments (RSS)\" link in footer?"
+msgstr "Показать ссылку \"Комментарии (RSS)\" в нижней части сайта (футере)?"
+
+#: ../udesign_options_page.php:5226
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: ../udesign_options_page.php:5230
+#, fuzzy
+msgid ""
+"Paste your Google Analytics or other tracking code here. It will be inserted "
+"just before the closing &lt;/head&gt; tag."
+msgstr ""
+"Вставьте свой код Google Analytics или другой код отслеживания. Он будет "
+"автоматически добавлен сразу перед закрывающим тэгом body каждой страницы"
+
+#: ../udesign_options_page.php:5243
+#, fuzzy
+msgid "General Informaion"
+msgstr "Основные Настройки"
+
+#: ../udesign_options_page.php:5245
+msgid ""
+"960px is the theme's default width. If responsive is enabled the theme will "
+"resize automatically to adjust to the size of the browser window or the type "
+"of device being used based on the following three breakpoints:"
+msgstr ""
+
+#: ../udesign_options_page.php:5247
+msgid "1 ) Breakpoint 1 - [ 960px to 720px ]"
+msgstr ""
+
+#: ../udesign_options_page.php:5248
+msgid "2 ) Breakpoint 2 - [ 720px to 480px ]"
+msgstr ""
+
+#: ../udesign_options_page.php:5249
+msgid "3 ) Breakpoint 3 - [ smaller than 480px ]"
+msgstr ""
+
+#: ../udesign_options_page.php:5259 ../udesign_options_page.php:5261
+#, fuzzy
+msgid "Enable Responsive"
+msgstr "Нет ответов"
+
+#: ../udesign_options_page.php:5264
+msgid "Enable responsive layout."
+msgstr ""
+
+#: ../udesign_options_page.php:5270
+msgid "Responsive Logo (optional)"
+msgstr ""
+
+#: ../udesign_options_page.php:5273
+#, fuzzy
+msgid "Enter a URL or upload an image for your alternative logo:"
+msgstr "Введите URL или загрузите картинку с Вашим логотипом"
+
+#: ../udesign_options_page.php:5278
+msgid ""
+"An alternative logo will be loaded ONLY in the case Breakpoints 2 and 3. "
+"Please note, this is optional, in most cases you won't need an alternative "
+"logo but in some cases might be handy. In either case the theme will resize "
+"(if necessary) and center the logo automatically."
+msgstr ""
+
+#: ../udesign_options_page.php:5282
+msgid "Responsive Logo Height"
+msgstr ""
+
+#: ../udesign_options_page.php:5285
+msgid ""
+"(Height) in pixels.  Note: The width is automatically adjusted to the "
+"maximum allowed width."
+msgstr ""
+
+#: ../udesign_options_page.php:5289 ../udesign_options_page.php:5291
+#, fuzzy
+msgid "Remove the Slider Area"
+msgstr "Удалить боковую колонку со страниц блога"
+
+#: ../udesign_options_page.php:5294
+msgid ""
+"Remove the Slider Area completely from the home page for the Breakpoints 2 "
+"and 3."
+msgstr ""
+
+#: ../udesign_options_page.php:5300 ../udesign_options_page.php:5302
+#, fuzzy
+msgid "Remove Background Images"
+msgstr "Верхнее фоновое изображение"
+
+#: ../udesign_options_page.php:5305
+msgid ""
+"Remove all background images for Breakpoint 1. Those are the background "
+"images that have been assigned through the theme's 'Custom Colors' section."
+msgstr ""
+
+#: ../udesign_options_page.php:5306
+msgid ""
+"(Note: The background images will be replaced with their corresponding "
+"background colors for those respective sections. Also, by default the "
+"background images will be removed automatically for Breakpoints 2 and 3 "
+"respectively)"
+msgstr ""
+
+#: ../udesign_options_page.php:5312
+msgid "Responsive Menu"
+msgstr ""
+
+#: ../udesign_options_page.php:5316
+msgid "Responsive Menu 1"
+msgstr ""
+
+#: ../udesign_options_page.php:5317
+msgid "Responsive Menu 2"
+msgstr ""
+
+#: ../udesign_options_page.php:5319
+msgid "Choose a menu to be used for Breakpoints 2 and 3."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:164
+#: ../lib/plugin-activation/register-required-plugins.php:127
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:165
+#: ../lib/plugin-activation/register-required-plugins.php:128
+msgid "Install Plugins"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:166
+#: ../lib/plugin-activation/register-required-plugins.php:129
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:178
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:490
+#: ../lib/plugin-activation/register-required-plugins.php:141
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:179
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1846
+#: ../lib/plugin-activation/register-required-plugins.php:142
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:517
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1091
+msgid "External Link"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1096
+msgid "Private Repository"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1103
+#, fuzzy
+msgid "WordPress Repository"
+msgstr "Ссылка на WordPress"
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1106
+#, fuzzy
+msgid "Required"
+msgstr "обазательно"
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1106
+msgid "Recommended"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1109
+msgid "Not Installed"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1297
+msgid "Plugin"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1298
+msgid "Source"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1299
+msgid "Type"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1300
+#, fuzzy
+msgid "Status"
+msgstr "Статусная строка"
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1318
+msgid "Install"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1319
+#, fuzzy
+msgid "Activate"
+msgstr "Сохранить и применить"
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1829
+#, fuzzy
+msgid "Install package not available."
+msgstr "Предварительный просмотр картинки недоступен!"
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1956
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1965
+#, fuzzy
+msgid "Show Details"
+msgstr "Показать миниатюры"
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1956
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1965
+msgid "Hide Details"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../lib/plugin-activation/class-tgm-plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../lib/plugin-activation/register-required-plugins.php:130
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../lib/plugin-activation/register-required-plugins.php:143
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../scripts/breadcrumbs.php:105
+msgid "Author: "
+msgstr "Автор: "
+
+#: ../scripts/breadcrumbs.php:107
+msgid "Tag: "
+msgstr "Тэг: "
+
+#: ../scripts/breadcrumbs.php:108
+msgid "404 - Page not Found"
+msgstr "404 - Страница не найдена"
+
+#: ../scripts/portfolio-item-thumbnail.php:56
+msgid "Preview item is not available!."
+msgstr "Предварительный просмотр недоступен!"
+
+#: ../scripts/portfolio-item-thumbnail.php:74
+msgid "Preview image not available!."
+msgstr "Предварительный просмотр картинки недоступен!"
+
+#: ../scripts/portfolio-item-thumbnail.php:81
+msgid "Default Image"
+msgstr "Картинка по умолчанию"
+
+#: ../sliders/cycle/cycle1/cycle1_display.php:34
+#: ../sliders/cycle/cycle2/cycle2_display.php:39
+#: ../sliders/cycle/cycle3/cycle3_display.php:43
+msgid "Play"
+msgstr "Проиграть"
+
+#: ../sliders/cycle/cycle1/cycle1_display.php:35
+#: ../sliders/cycle/cycle2/cycle2_display.php:38
+#: ../sliders/cycle/cycle3/cycle3_display.php:44
+msgid "Pause"
+msgstr "Пауза"
+
+#: ../sliders/flashmo/grid_slider/grid_slider_display.php:26
+#: ../sliders/flashmo/grid_slider/grid_slider_display.php:30
+#: ../sliders/piecemaker/piecemaker_display.php:11
+#: ../sliders/piecemaker/piecemaker_display.php:19
+#: ../sliders/piecemaker_2/piecemaker_display.php:11
+#: ../sliders/piecemaker_2/piecemaker_display.php:16
+msgid "Slider Image"
+msgstr "Картинка слайдера"
+
+#: ../widgets/customCategory-widget.php:39
+msgid "A list or dropdown of a single category's descendants."
+msgstr "Список или выпадающее меню рубрик"
+
+#: ../widgets/customCategory-widget.php:45
+msgid "U-Design: Custom Category"
+msgstr "U-Design: Выбранная рубрика"
+
+#: ../widgets/customCategory-widget.php:122
+msgid "Category to be displayed:"
+msgstr "Выводимая Рубрика: "
+
+#: ../widgets/customCategory-widget.php:132
+msgid "Show as dropdown"
+msgstr "Показать как выпадающий список"
+
+#: ../widgets/customCategory-widget.php:138
+msgid "Show post counts"
+msgstr "Показать число записей"
+
+#: ../widgets/customCategory-widget.php:144
+msgid "Show hierarchy"
+msgstr "Показать иерархию"
+
+#: ../widgets/googleMap-widget.php:39
+msgid "A Google Map widget."
+msgstr "Google карт виджет."
+
+#: ../widgets/googleMap-widget.php:45
+msgid "U-Design: Google Map"
+msgstr "U-Design: Карта Google"
+
+#: ../widgets/googleMap-widget.php:95
+msgid "Google Map"
+msgstr "Карта Google"
+
+#: ../widgets/googleMap-widget.php:105
+msgid "Google Map Code:"
+msgstr "Код карты Google: "
+
+#: ../widgets/latestPost-widget.php:39
+msgid "The most recent posts with teaser text"
+msgstr ""
+
+#: ../widgets/latestPost-widget.php:45
+msgid "U-Design: Recent Posts"
+msgstr "U-Design: Свежие записи"
+
+#: ../widgets/latestPost-widget.php:86
+#, fuzzy, php-format
+msgid "%1$s by %2$s "
+msgstr "%1$s в %2$s"
+
+#: ../widgets/latestPost-widget.php:146
+msgid "Pick a specific category:"
+msgstr "Выберите определенную рубрику:"
+
+#: ../widgets/latestPost-widget.php:152
+msgid "Number of posts to show:"
+msgstr "Количество отображаемых записей:"
+
+#: ../widgets/latestPost-widget.php:155
+msgid "(at most 15)"
+msgstr "(самое большее 15)"
+
+#: ../widgets/latestPost-widget.php:160
+msgid "Number of posts to skip:"
+msgstr "Количество пропускаемых записей:"
+
+#: ../widgets/latestPost-widget.php:163
+msgid "(offset from latest)"
+msgstr "(смещение от последнего)"
+
+#: ../widgets/latestPost-widget.php:168
+msgid "Limit the number of words to show from each post:"
+msgstr "Ограничение на количество слов для показа в каждой записи:"
+
+#: ../widgets/latestPost-widget.php:171
+msgid ""
+"(Could also be limited by \"Excerpt Length\" defined in the theme's options "
+"page)"
+msgstr ""
+"(Может быть также ограничено по \"Длине цитаты\" определяемой в настройках "
+"темы)"
+
+#: ../widgets/latestPost-widget.php:178
+msgid "Show date & author info"
+msgstr "Показать информацию о дате и авторе"
+
+#: ../widgets/latestPost-widget.php:186
+msgid "Show \"Read more &rarr;\" link "
+msgstr "Показать ссылку \"Читать далее &rarr;\""
+
+#: ../widgets/latestPost-widget.php:194
+msgid "Show thumbnails"
+msgstr "Показать миниатюры"
+
+#: ../widgets/latestPost-widget.php:205
+msgid "Show thumbnail frame shadow"
+msgstr "Показать тень от рамки миниатюры"
+
+#: ../widgets/latestPost-widget.php:211
+msgid "Thumbnail Dimensions:"
+msgstr "Размер миниатюры:"
+
+#: ../widgets/latestPost-widget.php:216
+msgid "(Width X Height) in pixels"
+msgstr "(Ширина Х Высота) в пикселях"
+
+#: ../widgets/loginForm-widget.php:39
+msgid "A user login form."
+msgstr "Форма для входа пользователя"
+
+#: ../widgets/loginForm-widget.php:45
+msgid "U-Design: Login Form"
+msgstr "U-Design: Форма входа"
+
+#: ../widgets/loginForm-widget.php:69
+msgid "You are logged in as"
+msgstr "Вы вошли как"
+
+#: ../widgets/loginForm-widget.php:72
+msgid "Logout"
+msgstr "Выйти"
+
+#: ../widgets/loginForm-widget.php:79
+msgid "User"
+msgstr "Пользователь"
+
+#: ../widgets/loginForm-widget.php:82
+msgid "Password"
+msgstr "Пароль"
+
+#: ../widgets/loginForm-widget.php:86
+msgid "Login"
+msgstr "Логин"
+
+#: ../widgets/loginForm-widget.php:87
+msgid "Remember me"
+msgstr "Запомнить меня"
+
+#: ../widgets/loginForm-widget.php:94
+msgid "Register"
+msgstr "Регистрация"
+
+#: ../widgets/loginForm-widget.php:96
+msgid "Recover password"
+msgstr "Восстановить пароль"
+
+#: ../widgets/loginForm-widget.php:128
+msgid "Login Form"
+msgstr "Форма входа"
+
+#: ../widgets/subpages-widget.php:39
+msgid "Display subpages if present page only."
+msgstr "Показать иерархические страницы только для этой страницы"
+
+#: ../widgets/subpages-widget.php:45
+msgid "U-Design: Subpages"
+msgstr "U-Design: Иерархические страницы"
+
+#: ../widgets/subpages-widget.php:121
+msgid ""
+"Leave the Title field blank if you would like to display the parent page "
+"Title instead."
+msgstr ""
+"Если вы хотите показать название родительской страницы, оставьте поле "
+"Название незаполненным."
+
+#~ msgid "Exclude Pages From Menu"
+#~ msgstr "Исключить страницы из меню"
+
+#~ msgid ""
+#~ "If you have setup your menu through %1$sAppearance -> Menus%2$s, then you "
+#~ "can ignore this option. Please select the page(s) you would like to be "
+#~ "excluded from the top navigation menu. This option will NOT affect the "
+#~ "settings in the new WordPress 3.0+ Menu option."
+#~ msgstr ""
+#~ "Если вы настроили меню через %1$sВнешний вид -> Меню%2$s, тогда Вы можете "
+#~ "игнорировать эту опцию. Пожалуйста, выберите страницы, которые вы хотели "
+#~ "бы исключить из верхнего навигационного меню. Эта опция НЕ затрагивает "
+#~ "параметры настройки в новом меню WordPress 3.0+."
+
+#~ msgid "page ID:"
+#~ msgstr "ID страницы:"
+
+#~ msgid ""
+#~ "Keep in mind that if you exclude a page that has descendants (children "
+#~ "pages), they will automatically be excluded from the menu as well!"
+#~ msgstr ""
+#~ "Имейте в виду, что, если Вы исключаете страницу, у которой есть потомки "
+#~ "(children страницы), они будут также автоматически исключены из меню!"
+
+#~ msgid "Documentation (new window)"
+#~ msgstr "Документация (новое окно)"
+
+#~ msgid "<div>Tags: "
+#~ msgstr "<div>Тэги:"
+
+#, fuzzy
+#~ msgid "TitlePosition 2"
+#~ msgstr "Фиксированное расположение"
+
+#~ msgid "\"No Slider\" Text"
+#~ msgstr "Текст \"Нет слайдера\""
+
+#~ msgid "Upload Slide:"
+#~ msgstr "Загрузить слайд:"
+
+#~ msgid "(Preview image to be loaded before the SWF file is shown)"
+#~ msgstr ""
+#~ "(Изображение предварительного просмотра, которое будет загружено до "
+#~ "показа SWF файла)"
+
+#~ msgid "(Preview image to be loaded before the Video file is shown)"
+#~ msgstr ""
+#~ "(Изображение предварительного просмотра, которое будет загружено до "
+#~ "показа видео файла)"
+
+#~ msgid "Slide Image:"
+#~ msgstr "Изображение слайда:"
+
+#~ msgid "Permalink to %s"
+#~ msgstr "Постоянная ссылка %s"
+
+#~ msgid "Permanent Link to"
+#~ msgstr "Постоянная ссылка на"
+
+#~ msgid "Post Thumbnail"
+#~ msgstr "Миниатюра записи"
+
+#~ msgid "Permanent Link to, 'udesign'"
+#~ msgstr "Постоянная ссылка на 'udesign'"

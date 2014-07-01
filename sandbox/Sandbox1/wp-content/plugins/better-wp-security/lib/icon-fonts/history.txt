@@ -1,0 +1,4 @@
+1.0.0 - 2013-12-11 - Justin Kopepasah
+	Initial Release Version
+1.1.0 - 2014-01-11 - Ty Carlson
+	Add support for iThemes Security 

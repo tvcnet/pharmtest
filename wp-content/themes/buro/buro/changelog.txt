@@ -1,0 +1,131 @@
+*** Buro Changelog ***
+
+2012.03.19 - version 1.1.13
+ * style.css - Fix for iPhone landscape navigation & footer-widgets
+
+2012.03.13 - version 1.1.12
+ * style.css - Removed filter property from drop down menus (was causing bug in IE)
+
+2012.03.08 - version 1.1.11
+ * includes/js/jquery.fitvids.js - Updated FitVids script
+
+2012.03.07 - version 1.1.10
+ * includes/js/general.js - Applied FitVids script to in-post embeds
+
+2012.01.09 - version 1.1.9
+ * style.css - Fixed dropdowns for IE
+
+2012.01.03 - version 1.1.8
+ * includes/general.js - Removed "responsive navigation" script.
+
+2012.01.03 - version 1.1.7
+ * includes/slider.php - Fixed slider when auto slide is set to "Off", changed slide animation to fade.
+ * includes/theme-js.php - Removed respond.js call
+ * includes/js/respond.min.js - Deleted file
+
+2011.12.23 - version 1.1.6
+ * style.css - added slider fix IE7: .ie7 #slides { position:relative; }
+ * includes/panel-recent-posts.php - added noheight=true to woo_image so images work on IE
+
+2011.12.22 - version 1.1.5
+ * /includes/theme-functions.php - Add the "speed" argument and resulting logic to the woo_display_feedback_entries() function.
+ * /includes/widgets/widget-woo-feedback.php - Add the "speed" input field into the widget control panel.
+ * /includes/js/feedback.js - Implement logic to work with the newly-added "speed" argument to adjust the feedback autoplay interval.
+
+2011.12.15 - version 1.1.4
+ * includes/slider.php - Added new $noheight variable to woo_image
+
+2011.12.13 - version 1.1.3
+ * template-blog.php - Remove homepage category exclude filter to make sure it doesn't apply on the "Blog" page template.
+
+2011.12.05 - version 1.1.2
+ * includes/slider.php - Removed height attribute from woo_image
+
+2011.12.01 - version 1.1.1
+ * includes/js/general.js - Removed nth-of-type selector (Error in IE)
+ * includes/panel-recent-posts.php - Added "last" class via PHP
+
+2011.11.23 - version 1.1
+ * PLEASE CHECK YOUR SLIDER OPTIONS AND RE-SAVE THEM AFTER THIS UPDATE 
+ * includes/theme-options.php - refined slider options
+ * includes/slider.php - tweaked slider options
+ * includes/theme-functions.php - added WP post thumbnail to slider posts
+ * includes/js/jquery.flexslider-min.js - updated version
+
+2011.11.22 - version 1.0.20
+ * styles/*.css - Fixed dropdown menu link color
+ * includes/js/general.js - Fixed recent post last-child class
+ * includes/panel-recent-categories.php - Added clear fix after 3 items
+
+2011.11.16 - version 1.0.19
+ * includes/theme-js.php - Load FitVids
+
+2011.11.14 - version 1.0.18
+ * header.php - Changed site title to always be H1, regardless of page (HTML5)
+
+2011.11.07 - version 1.0.17
+ * template-contact.php - Clearfix
+
+2011.10.31 - version 1.0.16
+ * style.css - Navigation styling tweaks
+ * includes/js/general.js - Removed JS that dynamically calculates margin-top for nav. 
+
+2011.10.25 - version 1.0.15
+ * footer.php added stripslashes to the footer about title and content.
+ 
+2011.10.24 - version 1.0.14
+ * includes/theme-actions.php - Fixed custom typography for slider title
+ * includes/slider.php - Fixed slider title URL
+
+2011.10.19 - version 1.0.13
+ * includes/theme-actions - Fixed custom typography CSS selectors.
+
+2011.10.12 - version 1.0.12
+ * /includes/js/general.js - Fixed responsive nav JS to only apply to header navigation. Adjusted FiVids selector & moved to window.load
+ * /includes/slider.php - Added width ( 1180 ) to woo_embed in featured slider.
+
+2011.10.10 - version 1.0.11
+ * style.css - IE image width bug fix.
+
+2011.10.10 - version 1.0.10
+ * style.css - Fixed slider width
+ * includes/js/general.js - Re-added responsive nav JS
+
+2011.10.07 - version 1.0.9
+ * style.css - Removed image width setting
+
+2011.10.06 - version 1.0.8
+ * includes/theme-actions.php - Adjusted custom background style options to apply to #content-wrapper, not body.
+
+2011.10.05 - version 1.0.7
+ * /includes/theme-comments.php - Adjusted the_commenter_link() function to resolve preg_match() PHP notice.
+
+2011.10.04 - version 1.0.6
+ * style.css - Adjusted navigation margin
+ * includes/js/general.js - Removed JS for responsive navigation
+
+2011.09.28 - version 1.0.5
+ * style.css - Fixed resizing for images with captions
+
+2011.09.27 - version 1.0.4
+ * includes/theme-functions.php - Remove "featured image" box for Slides
+ * includes/js/general.js - Removing "width" & "height" from WP-cation images
+ * style.css - Added max-width for captioned images
+
+2011.09.26 - version 1.0.3
+ * style.css - Remove body bg image from IE8, to stop respond.js from crashing the browser
+ * /includes/theme-functions.php - Added logic to display author name without displaying the author URL as a hyperlink on the author name.
+
+2011.09.17 - version 1.0.2
+ * style.css - Fixed in-post responsive images for webkit
+ * includes/js/general.js - Added script to remove height & width attr's from in-post images, to allow for responsive resizing
+
+2011.09.16 - version 1.0.1
+ * /includes/slider.php - Slider URL fix, Added Clearfix, Moved FitVids init to general.js
+ * /includes/theme-js.php - Changed FitVids.js to always be included, so it works for in-post content
+ * /includes/general.js - Added FitVids init here, so it works on in-post content. Also fixed width adjustment for nav
+ * /includes/jquery.flexslider-min.js - Updated to latest version
+ * style.css - Added responsiveness too in-post images
+ 	
+2011.09.14 - version 1.0.0
+ * First release!

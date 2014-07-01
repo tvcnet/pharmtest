@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: U-Design WooCommerce Integration Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-05 15:29-0500\n"
+"PO-Revision-Date: 2013-03-05 15:29-0500\n"
+"Last-Translator: Andon <andon.design@gmail.com>\n"
+"Language-Team: \n"
+"Language: nl-NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr__;esc_attr_e;esc_html__;esc_html_e;"
+"_n:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../u-design-woocommerce.class.php:173
+msgid "No product categories exist."
+msgstr "Er bestaan geen productcategorieën."
+
+#: ../u-design-woocommerce.class.php:206 ../widgets/widget-ud-wc-cart.php:87
+msgid "View your shopping cart"
+msgstr "Bekijk je winkelwagen"
+
+#: ../u-design-woocommerce.class.php:206 ../widgets/widget-ud-wc-cart.php:87
+#, php-format
+msgid "Cart: %d item"
+msgid_plural "Cart: %d items"
+msgstr[0] "Winkelwagen: %d artikel"
+msgstr[1] "Winkelwagen: %d artikelen"
+
+#: ../widgets/widget-ud-wc-cart.php:39
+msgid "A widget that displays cart info."
+msgstr "Een widget die winkelwagen info toont."
+
+#: ../widgets/widget-ud-wc-cart.php:45
+msgid "U-Design: WooCommerce Cart"
+msgstr "U-Design: WooCommerce Winkelwagen"
+
+#: ../widgets/widget-ud-wc-cart.php:78
+msgid "My Account"
+msgstr "Mijn Account"
+
+#: ../widgets/widget-ud-wc-cart.php:79
+msgid "Logout"
+msgstr "Uitloggen"
+
+#: ../widgets/widget-ud-wc-cart.php:81
+msgid "Login"
+msgstr "Login"
+
+#: ../widgets/widget-ud-wc-cart.php:83
+msgid "Register"
+msgstr "Registreren"
+
+#: ../widgets/widget-ud-wc-cart.php:115
+msgid "Cart"
+msgstr "Winkelwagen"
+
+#: ../widgets/widget-ud-wc-cart.php:120
+msgid "Title:"
+msgstr "Titel:"
