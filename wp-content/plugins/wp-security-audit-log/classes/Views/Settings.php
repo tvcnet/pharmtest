@@ -39,12 +39,15 @@ class WSAL_Views_Settings extends WSAL_AbstractView {
 	}
 	
 	protected function Save(){
+		$this->_plugin->settings->SetPruningDateEnabled(isset($_REQUEST['PruneByDate']));
 		$this->_plugin->settings->SetPruningDate($_REQUEST['PruningDate']);
+		$this->_plugin->settings->SetPruningLimitEnabled(isset($_REQUEST['PruneByLimit']));
 		$this->_plugin->settings->SetPruningLimit($_REQUEST['PruningLimit']);
 		$this->_plugin->settings->SetWidgetsEnabled($_REQUEST['EnableDashboardWidgets']);
 		$this->_plugin->settings->SetAllowedPluginViewers(isset($_REQUEST['Viewers']) ? $_REQUEST['Viewers'] : array());
 		$this->_plugin->settings->SetAllowedPluginEditors(isset($_REQUEST['Editors']) ? $_REQUEST['Editors'] : array());
 		$this->_plugin->settings->SetRefreshAlertsEnabled($_REQUEST['EnableAuditViewRefresh']);
+		$this->_plugin->settings->SetIncognito(isset($_REQUEST['Incognito']));
 		$this->_plugin->settings->ClearDevOptions();
 		if(isset($_REQUEST['DevOptions']))
 			foreach($_REQUEST['DevOptions'] as $opt)
@@ -82,9 +85,13 @@ class WSAL_Views_Settings extends WSAL_AbstractView {
 						<td>
 							<fieldset>
 								<?php $text = __('(eg: 1 month)', 'wp-security-audit-log'); ?>
-								<!--<input type="radio" id="delete1" style="margin-top: 2px;"/>-->
-								<label for="delete1"><?php echo __('Delete alerts older than', 'wp-security-audit-log'); ?></label>
-								<input type="text" name="PruningDate" placeholder="<?php echo $text; ?>"
+								<?php $nbld = $this->_plugin->settings->IsPruningDateEnabled(); ?>
+								<label for="delete1">
+									<input type="checkbox" id="delete1" name="PruneByDate" value="1" <?php if($nbld)echo 'checked="checked"'; ?>
+										   onchange="jQuery('#PruningDate').attr('readonly', !checked);"/>
+									<?php echo __('Delete alerts older than', 'wp-security-audit-log'); ?>
+								</label>
+								<input type="text" id="PruningDate" name="PruningDate" placeholder="<?php echo $text; ?>" <?php if(!$nbld)echo 'readonly="readonly"'; ?>
 									   value="<?php echo esc_attr($this->_plugin->settings->GetPruningDate()); ?>"/>
 								<span> <?php echo $text; ?></span>
 							</fieldset>
@@ -94,16 +101,17 @@ class WSAL_Views_Settings extends WSAL_AbstractView {
 						<th></th>
 						<td>
 							<fieldset>
-								<?php $max = $this->_plugin->settings->GetMaxAllowedAlerts(); ?>
-								<?php $text = sprintf(__('(1 to %d alerts)', 'wp-security-audit-log'), $max); ?>
-								<!--<input type="radio" id="delete2" style="margin-top: 2px;"/>-->
-								<label for="delete2"><?php echo __('Keep up to', 'wp-security-audit-log'); ?></label>
-								<input type="text" name="PruningLimit" placeholder="<?php echo $text;?>"
+								<?php $text = __('(eg: 80)', 'wp-security-audit-log'); ?>
+								<?php $nbld = $this->_plugin->settings->IsPruningLimitEnabled(); ?>
+								<label for="delete2">
+									<input type="checkbox" id="delete2" name="PruneByLimit" value="1" <?php if($nbld)echo 'checked="checked"'; ?>
+										   onchange="jQuery('#PruningLimit').attr('readonly', !checked);"/>
+									<?php echo __('Keep up to', 'wp-security-audit-log'); ?>
+								</label>
+								<input type="text" id="PruningLimit" name="PruningLimit" placeholder="<?php echo $text;?>" <?php if(!$nbld)echo 'readonly="readonly"'; ?>
 									   value="<?php echo esc_attr($this->_plugin->settings->GetPruningLimit()); ?>"/>
+								<?php echo __('alerts', 'wp-security-audit-log'); ?>
 								<span><?php echo $text; ?></span>
-								<p class="description"><?php
-									echo sprintf(__('By default we keep up to %d WordPress Security Events.', 'wp-security-audit-log'), $max);
-								?></p>
 							</fieldset>
 						</td>
 					</tr>
@@ -215,6 +223,19 @@ class WSAL_Views_Settings extends WSAL_AbstractView {
 									?></label><br/><?php
 								}
 							?></fieldset>
+						</td>
+					</tr>
+					
+					<tr>
+						<th><label for="Incognito"><?php _e('Hide Plugin from Plugins Page', 'wp-security-audit-log'); ?></label></th>
+						<td>
+							<fieldset>
+								<label for="Incognito">
+									<input type="checkbox" name="Incognito" value="1" id="Incognito"<?php
+										if($this->_plugin->settings->IsIncognito())echo ' checked="checked"'; ?>/>
+									<?php _e('Hide', 'wp-security-audit-log'); ?>
+								</label>
+							</fieldset>
 						</td>
 					</tr>
 				</tbody>

@@ -8,10 +8,6 @@ class WSAL_Loggers_Database extends WSAL_AbstractLogger {
 	}
 	
 	public function Log($type, $data = array(), $date = null, $siteid = null, $migrated = false) {
-
-		// use today's date if not set up
-		if(is_null($date))$date = current_time('timestamp');
-		
 		// create new occurrence
 		$occ = new WSAL_DB_Occurrence();
 		$occ->is_migrated = $migrated;
@@ -34,8 +30,8 @@ class WSAL_Loggers_Database extends WSAL_AbstractLogger {
 		if($cnt_items == $max_count)return;
 		$max_items = max(($cnt_items - $max_count) + 1, 0);
 		
-		$is_date_e = true;
-		$is_limt_e = true;
+		$is_date_e = $this->plugin->settings->IsPruningDateEnabled();
+		$is_limt_e = $this->plugin->settings->IsPruningLimitEnabled();
 		
 		switch(true){
 			case $is_date_e && $is_limt_e:
@@ -50,6 +46,8 @@ class WSAL_Loggers_Database extends WSAL_AbstractLogger {
 				$cond = '1 ORDER BY created_on ASC LIMIT %d';
 				$args = array($max_items);
 				break;
+			case !$is_date_e && !$is_limt_e:
+				return;
 		}
 		if(!isset($cond))return;
 		

@@ -34,6 +34,49 @@ class WSAL_Views_Sandbox extends WSAL_AbstractView {
 	protected $snippets = array(
 		'' => '',
 		'Current WP User' => 'return wp_get_current_user();',
+		
+		'Clean PHP Error Events' => '
+class OccurrenceCleanupTask extends WSAL_AbstractSandboxTask {
+			
+	protected $event_ids = array(0000, 0001, 0002, 0003, 0004, 0005);
+
+	protected function Execute(){
+		global $wpdb;
+		$occs = WSAL_DB_Occurrence::LoadMulti(\'alert_id IN (\'.implode(\',\', $this->event_ids).\')\');
+		$c = count($occs);
+		$this->Message($c ? (\'Removing \' . $c . \' events...\') : \'No events to remove!\');
+		foreach($occs as $i => $occ){
+			$this->Message(\'Removing Event \' . $occ->id . \'...\', true);
+			$occ->Delete();
+			$this->Progress(($i + 1) / $c * 100);
+		}
+	}
+}
+new OccurrenceCleanupTask();',
+		
+		'Multisite Site Creator' => '
+class DummySiteCreatorTask extends WSAL_AbstractSandboxTask {
+			
+	protected $sites_to_create = 100;
+	protected $site_host = \'localhost\';
+	protected $site_path = \'/wordpress-3.8/test$i/\';
+	protected $site_name = \'Test $i\';
+
+	protected function Execute(){
+		global $wpdb;
+		$l = $wpdb->get_var("SELECT blog_id FROM $wpdb->blogs ORDER BY blog_id DESC LIMIT 1") + 1;
+		$this->Message(\'Creating \' . $this->sites_to_create . \' new sites...\');
+		for($i = $l; $i <= $this->sites_to_create + $l; $i++){
+			$this->Progress(($i - $l) / $this->sites_to_create * 100);
+			wpmu_create_blog(
+				str_replace(\'$i\', $i, $this->site_host),
+				str_replace(\'$i\', $i, $this->site_path),
+				str_replace(\'$i\', $i, $this->site_name),
+			1);
+		}
+	}
+}
+new DummySiteCreatorTask();',
 	);
 	
 	public function HandleError($code, $message, $filename = 'unknown', $lineno = 0){
@@ -99,11 +142,11 @@ class WSAL_Views_Sandbox extends WSAL_AbstractView {
 		echo '</style>';
 		echo '</head><body>';
 		
-		if(($e = error_get_last()) && !isset($this->exec_data['Errors']) && !count($this->exec_data['Errors']))
+		if(($e = error_get_last()) && (!isset($this->exec_data['Errors']) || !count($this->exec_data['Errors'])))
 			$this->HandleError($e['type'], $e['message'], $e['file'], $e['line']);
 		
 		if(count($this->exec_data)){
-			$result = new WSAL_Nicer($this->exec_data);
+			$result = new WSAL_Nicer($this->exec_data, true);
 			$result->render();
 		}else echo '<div class="faerror">FATAL ERROR</div>';
 		
