@@ -668,7 +668,7 @@ CREATE TABLE `wp_revisr` (
   `message` text,
   `event` varchar(42) NOT NULL,
   UNIQUE KEY `id` (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=22 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=23 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -677,7 +677,7 @@ CREATE TABLE `wp_revisr` (
 
 LOCK TABLES `wp_revisr` WRITE;
 /*!40000 ALTER TABLE `wp_revisr` DISABLE KEYS */;
-INSERT INTO `wp_revisr` VALUES (1,'2014-07-01 17:33:15','Error pushing changes to the remote repository.','error'),(2,'2014-07-01 17:33:15','Backed up the database.','backup'),(3,'2014-07-01 17:53:05','Error pushing changes to the remote repository.','error'),(4,'2014-07-01 17:53:05','Backed up the database.','backup'),(5,'2014-07-01 17:55:47','Error pushing changes to the remote repository.','error'),(6,'2014-07-01 17:55:47','Backed up the database.','backup'),(7,'2014-07-01 17:56:28','Discarded all changes to the working directory.','discard'),(8,'2014-07-01 17:56:51','Checked out branch: \'master\'.','branch'),(9,'2014-07-01 18:07:52','Error pushing changes to the remote repository.','error'),(10,'2014-07-01 18:08:36','Error pushing changes to the remote repository.','error'),(11,'2014-07-01 18:10:46','Error pushing changes to the remote repository.','error'),(12,'2014-07-01 18:24:41','Error pushing changes to the remote repository.','error'),(13,'2014-07-01 18:26:17','Error pushing changes to the remote repository.','error'),(14,'2014-07-01 18:27:01','Error pushing changes to the remote repository.','error'),(15,'2014-07-03 12:21:28','Error pushing changes to the remote repository.','error'),(16,'2014-07-03 12:44:20','Error pushing changes to the remote repository.','error'),(17,'2014-07-03 12:57:24','Error pushing changes to the remote repository.','error'),(18,'2014-07-03 12:58:05','Error pushing changes to the remote repository.','error'),(19,'2014-07-03 13:03:09','Pushed <strong>1</strong> commit to the remote repository.','push'),(20,'2014-07-03 13:05:30','Committed <a href=\'http://pharm.tvsecure.net/wp-admin/post.php?post=178&action=edit\'>#2ed1ba9</a> and pushed to the remote repository.','commit'),(21,'2014-07-05 15:08:08','Reverted database to previous commit. <a href=\'http://pharm.tvsecure.net/wp-admin/admin-post.php?action=revert_db&db_hash=e9333eb\'>Undo</a>','revert');
+INSERT INTO `wp_revisr` VALUES (1,'2014-07-01 17:33:15','Error pushing changes to the remote repository.','error'),(2,'2014-07-01 17:33:15','Backed up the database.','backup'),(3,'2014-07-01 17:53:05','Error pushing changes to the remote repository.','error'),(4,'2014-07-01 17:53:05','Backed up the database.','backup'),(5,'2014-07-01 17:55:47','Error pushing changes to the remote repository.','error'),(6,'2014-07-01 17:55:47','Backed up the database.','backup'),(7,'2014-07-01 17:56:28','Discarded all changes to the working directory.','discard'),(8,'2014-07-01 17:56:51','Checked out branch: \'master\'.','branch'),(9,'2014-07-01 18:07:52','Error pushing changes to the remote repository.','error'),(10,'2014-07-01 18:08:36','Error pushing changes to the remote repository.','error'),(11,'2014-07-01 18:10:46','Error pushing changes to the remote repository.','error'),(12,'2014-07-01 18:24:41','Error pushing changes to the remote repository.','error'),(13,'2014-07-01 18:26:17','Error pushing changes to the remote repository.','error'),(14,'2014-07-01 18:27:01','Error pushing changes to the remote repository.','error'),(15,'2014-07-03 12:21:28','Error pushing changes to the remote repository.','error'),(16,'2014-07-03 12:44:20','Error pushing changes to the remote repository.','error'),(17,'2014-07-03 12:57:24','Error pushing changes to the remote repository.','error'),(18,'2014-07-03 12:58:05','Error pushing changes to the remote repository.','error'),(19,'2014-07-03 13:03:09','Pushed <strong>1</strong> commit to the remote repository.','push'),(20,'2014-07-03 13:05:30','Committed <a href=\'http://pharm.tvsecure.net/wp-admin/post.php?post=178&action=edit\'>#2ed1ba9</a> and pushed to the remote repository.','commit'),(21,'2014-07-05 15:08:08','Reverted database to previous commit. <a href=\'http://pharm.tvsecure.net/wp-admin/admin-post.php?action=revert_db&db_hash=e9333eb\'>Undo</a>','revert'),(22,'2014-07-05 15:09:17','Checked out branch: \'\'.','branch');
 /*!40000 ALTER TABLE `wp_revisr` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1667,4 +1667,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-07-05 13:09:18
+-- Dump completed on 2014-07-05 13:09:22
